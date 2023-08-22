@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2779],{5729:e=>{e.exports=JSON.parse('{"title":"Coding Journal","slug":"/category/coding-journal","permalink":"/my-website/docs/category/coding-journal","navigation":{"next":{"title":"082223","permalink":"/my-website/docs/coding-journal/082223"}}}')}}]);
