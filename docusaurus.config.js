@@ -93,6 +93,19 @@ const config = {
             ]
           },
           {
+            title: 'Get In Touch',
+            items: [
+              {
+                label: 'Email',
+                to: 'mailto:quynhnle135@gmail.com',
+              },
+              {
+                label: 'Phone',
+                to: 'tel:+16093251446',
+              }
+            ]
+          },
+          {
             title: 'Contact',
             items: [
               {
@@ -105,19 +118,6 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Get In Touch',
-            items: [
-              {
-                label: 'Email',
-                to: 'mailto:quynhnle135@gmail.com',
-              },
-              {
-                label: 'Phone',
-                to: 'tel:+16093251446',
-              }
-            ]
-          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Quinn Le &#127810;`,
       },
