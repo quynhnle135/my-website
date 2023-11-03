@@ -14,9 +14,9 @@ sidebar_position: 5
     - Task Management: Users can add, update, search and delete their personal tasks.
 
 
-## 2. Expense Management Application & API
-- GitHub's repository: 
-- Technical Stack: https://github.com/quynhnle135/django-library-project
+## 2. Personal Library Application & API
+- GitHub's repository: https://github.com/quynhnle135/django-library-project
+- Technical Stack: Django, Django REST Framework, HTML, CSS, Git, GitHub.
 - Description: 
     - This is a personal project to track books I've read, complete with titles, authors, summaries, and personal ratings. The application, built with Django, allows for adding, updating, and deleting books in my reading list. It features a search functionality that lets me find books by title, author, minimum rating, or publication date.
 
