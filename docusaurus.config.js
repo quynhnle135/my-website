@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Quinn's Site",
-  tagline: 'Welcome to my digital diary',
-  favicon: 'img/favicon.ico',
+  tagline: 'Welcome to my archive!',
+  favicon: 'img/2005559.svg',
 
   // Set the production url of your site here
   url: 'https://quynhnle135.github.io',
@@ -40,17 +40,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,12 +55,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Q.jpeg',
       navbar: {
         title: "Quinn's Site",
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/2005559.svg',
         },
         items: [
           {
@@ -86,23 +78,26 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title:'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Coding Journal',
+                to: '/docs/category/coding-journal',
               },
-            ],
+              {
+                label: 'Leetcode Grinding',
+                to: '/docs/category/leetcode-grinding',
+              }
+            ]
           },
           {
             title: 'Contact',
             items: [
               {
                 label: 'LinkedIn',
-                to: 'https://www.linkedin.com/in/quinnle13/',
+                href : 'https://www.linkedin.com/in/quinnle13/',
               },
               {
                 label: 'GitHub',
@@ -110,8 +105,21 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Get In Touch',
+            items: [
+              {
+                label: 'Email',
+                to: 'mailto:quynhnle135@gmail.com',
+              },
+              {
+                label: 'Phone',
+                to: 'tel:+16093251446',
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Quinn Le`,
+        copyright: `Copyright © ${new Date().getFullYear()} Quinn Le &#127810;`,
       },
       prism: {
         theme: lightCodeTheme,
