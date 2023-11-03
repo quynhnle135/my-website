@@ -1,41 +1,16 @@
-# Website
+# Personal Online Coding Journal Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+A personal coding journal crafted with [Docusaurus 2](https://docusaurus.io/), showcasing my growth as a developer. Tailored the site's look and feel with custom JavaScript and CSS modifications. Journal entries, written in Markdown, chronicle my learning experiences and programming insights.
 
-### Installation
+See my website at: https://quynhnle135.github.io/my-website/
 
-```
-$ yarn
-```
+## Features
 
-### Local Development
+- Daily Coding Journal: Daily updates with new insights, learnings, and reflections on the coding journey.
+- LeetCode Progress Tracker: A chronological log of LeetCode problems I've tackled, capturing my evolving problem-solving skills and coding proficiency
+- Minimalist Design: A clean, minimalistic style that reflects my personal taste and ensures focus on content.
+- Customized Look and Feel: While based on Docusaurus, the site has been significantly customized with personal JavaScript and CSS tweaks to stand out and provide a unique user experience.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Customizations
+- JavaScript Updates: Custom scripts have been added to enhance interactivity and user engagement.
+- CSS Overhaul: The default styling has been overhauled to mirror a minimalist aesthetic that I prefer for my digital journal.
