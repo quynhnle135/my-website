@@ -53,9 +53,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/Q.jpeg',
+      image: 'img/2005559.svg',
       navbar: {
-        title: "Quinn's Site",
+        title: "Quinn Le",
         logo: {
           alt: 'My Site Logo',
           src: 'img/2005559.svg',
@@ -80,12 +80,12 @@ const config = {
             title:'Docs',
             items: [
               {
-                label: 'Coding Journal',
-                to: '/docs/category/coding-journal',
+                label: 'Learning Journal',
+                to: '/docs/category/learning-journal',
               },
               {
-                label: 'Leetcode Grinding',
-                to: '/docs/category/leetcode-grinding',
+                label: 'Daily Practice',
+                to: '/docs/category/daily-practice',
               }
             ]
           },

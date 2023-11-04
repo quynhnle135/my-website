@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 ---
 
-# About My Projects
+# Projects
 
 ## 1. To Do List Application
 - GitHub's repository: https://github.com/quynhnle135/django-todolist-project
