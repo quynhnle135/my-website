@@ -1,4 +1,4 @@
-# Personal Online Coding Journal Website
+# Personal Online Learning Journal Website
 
 A personal coding journal crafted with [Docusaurus 2](https://docusaurus.io/), showcasing my growth as a developer. Tailored the site's look and feel with custom JavaScript and CSS modifications. Journal entries, written in Markdown, chronicle my learning experiences and programming insights.
 
