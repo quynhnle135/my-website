@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+title: Technical Blogs List
 ---
 
 # Technical Blogs
