@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Quinn's Site",
-  tagline: 'Welcome to my archive!',
+  title: "Quinn Le",
+  tagline: 'Welcome to my Online Learning Journal.',
   favicon: 'img/2005559.svg',
 
   // Set the production url of your site here
@@ -86,6 +86,10 @@ const config = {
               {
                 label: 'Daily Practice',
                 to: '/docs/category/daily-practice',
+              },
+              {
+                label: 'Tech Blogs',
+                to: '/docs/category/tech-blogs',
               }
             ]
           },
