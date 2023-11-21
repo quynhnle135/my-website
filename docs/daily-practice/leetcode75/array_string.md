@@ -1,5 +1,6 @@
 ---
 title: Array and String
+position: 1
 ---
 
 ### Merge String Alternately
