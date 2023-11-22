@@ -1,6 +1,5 @@
 ---
 title: Array and String
-position: 1
 ---
 
 ### Merge String Alternately
@@ -87,6 +86,33 @@ if __name__ == "__main__":
 ### Greatest Commmon Divisor of Strings
 
 ```python
+import math
+def gcdOfStrings(str1, str2):
+    len1 = len(str1)
+    len2 = len(str2)
+
+    gcd_len = gcd(len1, len2)
+    print(gcd_len)
+    common_divisor = str1[:gcd_len]
+    if str1 == common_divisor * (len1 // gcd_len) and str2 == common_divisor * (len2 // gcd_len):
+        return common_divisor
+
+    return ""
+
+
+def gcd(a, b):
+    if b == 0:
+        return a
+    return gcd(b, a % b)
+
+
+def main():
+    print(gcdOfStrings(str1="ABC", str2="ABCABC"))
+    print(gcdOfStrings(str1="ABABAB", str2="ABAB"))
+
+
+if __name__ == "__main__":
+    main()
 
 ```
 
@@ -128,6 +154,32 @@ if __name__ == "__main__":
 ### Can Place Flowers
 
 ```python
+def canPlaceFlowers(flowerbed, n):
+    if n == 0:
+        return True
+    count = 0
+    for i in range(len(flowerbed)):
+        if flowerbed[i] == 0:
+            leftSpot = (i == 0) or (flowerbed[i - 1] == 0)
+            rightSpot = (i == len(flowerbed) - 1) or (flowerbed[i + 1] == 0)
+
+            if leftSpot and rightSpot:
+                count += 1
+                flowerbed[i] = 1
+                if count == n:
+                    return True
+    return False
+
+
+def main():
+    print(canPlaceFlowers([1, 0, 0, 0, 1], 1))  # True
+    print(canPlaceFlowers([1, 0, 0, 0, 1], 2))  # False
+    print(canPlaceFlowers([1, 0, 0], 1))  # True
+
+
+if __name__ == "__main__":
+    main()
+
 ```
 
 
@@ -166,10 +218,104 @@ if __name__ == "__main__":
 ### Reverse Words in a String
 
 ```python
+import re
+
+
+def reverse_words(s):
+    s = re.sub(" +", " ", s.strip())
+    words = []
+    start = 0
+    res = ""
+    for end in range(len(s)):
+        if s[end] == " ":
+            word = s[start: end]
+            words.append(word)
+            start = end + 1
+
+    # Connect last word
+    words.append(s[start: len(s)])
+
+    # Reverse words
+    for i in range(len(words) - 1, -1, -1):
+        res += words[i] + " "
+
+    return res.strip()
+
+
+def reverseWords(s):
+    stack = []
+    s = re.sub(" +", " ", s.strip())
+    word = ""
+    for i in range(len(s)):
+        if s[i] != " ":
+            word += s[i]
+        else:
+            stack.append(word)
+            word = ""
+    stack.append(word)
+    reversed_s = ""
+    while stack:
+        reversed_s += stack.pop() + " "
+    return reversed_s.strip()
+
+
+def main():
+    print(reverse_words("the sky is blue"))  # blue is sky the
+    print(reverse_words("    harry    potter"))  # potter harry
+    print(reverseWords("the sky is blue"))
+    print(reverseWords("     harry    potter "))
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 
 ### Product of Array Except Self
 
 ```python
+def findProduct_i(nums):
+    res = [0] * len(nums)
+    for i in range(len(nums)):
+        cur_product = 1
+        for j in range(len(nums)):
+            if i == j:
+                continue
+            else:
+                cur_product *= nums[j]
+        res[i] = cur_product
+    return res
+
+
+def findProduct_ii(nums):
+    n = len(nums)
+    pre = [1] * n
+    post = [1] * n
+    res = [1] * n
+    pre_product = 1
+    post_product = 1
+    for i in range(n):
+        pre[i] = pre_product
+        pre_product *= nums[i]
+
+    for i in range(n - 1, -1, -1):
+        post[i] = post_product
+        post_product *= nums[i]
+
+    for i in range(n):
+        res[i] = pre[i] * post[i]
+    return res
+
+
+def main():
+    nums1 = [1, 2, 3, 4]
+    nums2 = [-1, 1, 0, -3, 3]
+    print(findProduct_i(nums1))
+    print(findProduct_ii(nums1))
+    print(findProduct_i(nums2))
+    print(findProduct_ii(nums2))
+
+
+if __name__ == "__main__":
+    main()
 ```
