@@ -6,25 +6,45 @@
 
 /* You can override the default Infima variables here. */
 
-
 :root {
-  --ifm-color-primary: #702d00;
-  --ifm-color-primary-dark: #652800;
-  --ifm-color-primary-darker: #5f2600;
-  --ifm-color-primary-darkest: #4e1f00;
-  --ifm-color-primary-light: #7b3100;
-  --ifm-color-primary-lighter: #813400;
-  --ifm-color-primary-lightest: #923a00;
+  --ifm-color-primary: #132043;
+  --ifm-color-primary-dark: #111d3c;
+  --ifm-color-primary-darker: #101b39;
+  --ifm-color-primary-darkest: #0d162f;
+  --ifm-color-primary-light: #15234a;
+  --ifm-color-primary-lighter: #16254d;
+  --ifm-color-primary-lightest: #192a57;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 
+/* Overriding root Infima variables */
 [data-theme='dark'] {
-  --ifm-color-primary: #fdd8bf;
-  --ifm-color-primary-dark: #fcbe94;
-  --ifm-color-primary-darker: #fbb17e;
-  --ifm-color-primary-darkest: #f9893e;
-  --ifm-color-primary-light: #fef2ea;
-  --ifm-color-primary-lighter: #ffffff;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #ffffff;
 }
+/* Styling one class specially in dark mode */
+[data-theme='dark'] .purple-text {
+  color: plum;
+}
+
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  article header h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 17px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
+}
+

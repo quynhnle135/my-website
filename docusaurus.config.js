@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: "Quinn Le",
   tagline: 'Welcome to my Online Learning Journal.',
-  favicon: 'img/2005559.svg',
+  favicon: 'img/meowbulb.svg',
 
   // Set the production url of your site here
   url: 'https://quynhnle135.github.io',
@@ -52,13 +52,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/2005559.svg',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        
+      },
+      image: 'img/smile.svg',
       navbar: {
         title: "Quinn Le",
         logo: {
           alt: 'My Site Logo',
-          src: 'img/2005559.svg',
+          src: 'img/meowbulb.svg',
         },
         items: [
           {
@@ -120,7 +124,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Quinn Le &#127810;`,
+        copyright: `Copyright © ${new Date().getFullYear()} Quinn Le &#128171;`,
       },
       prism: {
         theme: lightCodeTheme,
