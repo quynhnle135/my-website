@@ -54,7 +54,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
+        disableSwitch: true,
         
       },
       image: 'img/smile.svg',
@@ -74,6 +74,11 @@ const config = {
           {
             href: 'https://github.com/quynhnle135',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://www.linkedin.com/in/quinnle13/',
+            label: 'LinkedIn',
             position: 'right',
           },
         ],
