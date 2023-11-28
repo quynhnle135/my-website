@@ -30,7 +30,6 @@ sidebar_position: 5
 
 ## 4. Personal Library Application & API
 - GitHub's repository: https://github.com/quynhnle135/django-library-project
-- Technical Stack: Django, Django REST Framework, HTML, CSS, Git, GitHub.
 - Description: 
     - This is a personal project to track books I've read, complete with titles, authors, summaries, and personal ratings. The application, built with Django, allows for adding, updating, and deleting books in my reading list. It features a search functionality that lets me find books by title, author, minimum rating, or publication date.
 
@@ -38,15 +37,15 @@ sidebar_position: 5
 - Features:
     - Book Management: User can add, update, delete, and search books in the list
     - Simple Django REST API with CRUD operations.
-
+- Skills: Django, Django REST Framework, Python, HTML, CSS, Git, GitHub.
 
 ## 5. Expense Management System (OOP Version)
 - GitHub's repository: https://github.com/quynhnle135/expense-management-oop
-- Technical Stack: Python, Object-Oriented Programming
 - Description: This Expense Management System is a Python-based project utilizing Object-Oriented Programming (OOP) principles to offer a simple and effective way to track and manage expenses.
 - Features:
     - Add new expenses
     - Edit existing expenses
     - Search expenses by various fields like ID, category, card name, date, amount, and note
     - Delete expenses
+- Skills: Python, Object-Oriented Programming
 
