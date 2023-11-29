@@ -65,11 +65,31 @@ const config = {
           src: 'img/meowbulb.svg',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Docs',
+          // },
           {
-            type: 'docSidebar',
+            type: 'docsVersion',
+            to: '/docs/category/learning-journal',
+            position: 'left',
+            label: 'Learning Journal',
+          },
+          {
+            to: '/docs/category/daily-practice',
+            type: 'docsVersion',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Daily Practice',
+          },
+          {
+            to: '/docs/category/book-reviews',
+            type: 'docsVersion',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Book Reviews',
           },
           {
             href: 'https://github.com/quynhnle135',
@@ -95,6 +115,10 @@ const config = {
               {
                 label: 'Daily Practice',
                 to: '/docs/category/daily-practice',
+              },
+              {
+                label: 'Book Reviews',
+                to: '/docs/category/book-reviews',
               },
               {
                 label: 'Tech Blogs',
