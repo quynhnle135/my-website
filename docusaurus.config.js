@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/meowbulb.svg',
 
   // Set the production url of your site here
-  url: 'https://quynhnle135.github.io',
+  url: 'https://quinnle.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -66,19 +66,6 @@ const config = {
         },
         items: [
           {
-            type: 'docsVersion',
-            to: '/docs/category/learning-journal',
-            position: 'left',
-            label: 'Learning Journal',
-          },
-          {
-            to: '/docs/category/daily-practice',
-            type: 'docsVersion',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Daily Practice',
-          },
-          {
             to: '/docs/category/book-reviews',
             type: 'docsVersion',
             sidebarId: 'tutorialSidebar',
@@ -93,11 +80,24 @@ const config = {
             label: 'Communications',
           },
           {
+            type: 'docsVersion',
+            to: '/docs/category/learning-journal',
+            position: 'left',
+            label: 'Journals',
+          },
+          {
             to: '/docs/category/research-topics',
             type: 'docsVersion',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Research Topics',
+          },
+          {
+            to: '/docs/category/tech-blogs',
+            type: 'docsVersion',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Tech Blogs',
           },
           {
             to: '/docs/category/trouble-shooting',
@@ -124,28 +124,24 @@ const config = {
             title:'Docs',
             items: [
               {
-                label: 'Learning Journal',
-                to: '/docs/category/learning-journal',
-              },
-              {
-                label: 'Daily Practice',
-                to: '/docs/category/daily-practice',
-              },
-              {
                 label: 'Book Reviews',
                 to: '/docs/category/book-reviews',
-              },
-              {
-                label: 'Tech Blogs',
-                to: '/docs/category/tech-blogs',
               },
               {
                 label: 'Communications',
                 to: '/docs/category/communications',
               },
               {
+                label: 'Journals',
+                to: '/docs/category/learning-journal',
+              },
+              {
                 label: 'Research Topics',
                 to: '/docs/category/research-topics',
+              },
+              {
+                label: 'Tech Blogs',
+                to: '/docs/category/tech-blogs',
               },
               {
                 label: 'Trouble Shooting',
