@@ -1,5 +1,5 @@
 {
-    "label": "Python Testing with Python",
+    "label": "Python Testing with Pytest",
     "position": 2,
     "link": {
       "type": "generated-index"
