@@ -13,13 +13,13 @@ ttile: Custom Domain and Github Pages
 - The answer is no, it doesn't affect my wesbite. Changing my default's website domain in Github Pages involves setting up a redirect from the old domain to the new one. This means that if someone accesses my website using the old domain, they will be automatically redirected to the new custom domain.
 
 ### Do I have to deploy my website all over again?
-- No, I don't need to deplpy my website all over again. However, I need to set up DNS (Domain Name System).
+- No, I don't need to deploy my website all over again. However, I need to set up DNS (Domain Name System).
 - To set up DNS, I have to update Host Records in Advanced DNS in Namecheap Domain setting. Provide 4 A records (check them [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)) and CNAME (host: www; value: quynhnle135.github.io)
 
 
 ### Do I need to update my url and baseUrl in docusaurus.config.js file?
 - I only need to update baseUrl to "/" instead of "/my-website/"
-- The url doesn't need updating becasue I enter my custom domain in Github already.
+- The url doesn't need updating because I enter my custom domain in Github already.
 
 ### Why I access quinnle.io to see my website but it shows nothing?
 - Configuring DNS with new custom domain will take at least 30 minutes. After 30 minutes, I refresh my website and it works perfectly fine.

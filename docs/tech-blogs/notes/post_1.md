@@ -4,7 +4,7 @@ title: How To Use Marketing Techniques To Build A Better Resume
 
 # How To Use Marketing Techniques To Build A Better Resume
 
-Article's link: https://stackoverflow.blog/2023/05/24/how-to-use-marketing-techniques-to-build-a-better-resume/
+* Article's link: https://stackoverflow.blog/2023/05/24/how-to-use-marketing-techniques-to-build-a-better-resume/
 
 * Think like a marketer, which means that when you want to "sell" your resume, you have to ensure that your one-pager covers the basic features and benefits that would appeal to a specific persona (who may be recruiters or employers).
     
