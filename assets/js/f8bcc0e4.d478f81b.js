@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4470],{785:e=>{e.exports=JSON.parse('{"title":"Book Reviews","slug":"/category/book-reviews","permalink":"/docs/category/book-reviews","navigation":{"next":{"title":"Python Testing with Pytest","permalink":"/docs/category/python-testing-with-pytest"}}}')}}]);
