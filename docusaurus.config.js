@@ -65,12 +65,6 @@ const config = {
           src: 'img/meowbulb.svg',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Docs',
-          // },
           {
             type: 'docsVersion',
             to: '/docs/category/learning-journal',
@@ -104,6 +98,13 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Research Topics',
+          },
+          {
+            to: '/docs/category/trouble-shooting',
+            type: 'docsVersion',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Trouble Shooting',
           },
           {
             href: 'https://github.com/quynhnle135',
@@ -145,6 +146,10 @@ const config = {
               {
                 label: 'Research Topics',
                 to: '/docs/category/research-topics',
+              },
+              {
+                label: 'Trouble Shooting',
+                to: '/docs/category/trouble-shooting',
               }
             ]
           },
