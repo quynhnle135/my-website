@@ -92,6 +92,20 @@ const config = {
             label: 'Book Reviews',
           },
           {
+            to: '/docs/category/communications',
+            type: 'docsVersion',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Communications',
+          },
+          {
+            to: '/docs/category/research-topics',
+            type: 'docsVersion',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Research Topics',
+          },
+          {
             href: 'https://github.com/quynhnle135',
             label: 'GitHub',
             position: 'right',
@@ -123,6 +137,14 @@ const config = {
               {
                 label: 'Tech Blogs',
                 to: '/docs/category/tech-blogs',
+              },
+              {
+                label: 'Communications',
+                to: '/docs/category/communications',
+              },
+              {
+                label: 'Research Topics',
+                to: '/docs/category/research-topics',
               }
             ]
           },

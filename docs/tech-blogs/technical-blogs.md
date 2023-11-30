@@ -91,3 +91,9 @@ title: Technical Blogs List
 - Zendesk Engineering https://zendesk.engineering/ <br/>
 - Vinted Engineering https://vinted.engineering/ <br/>
 - BuzzFeed Tech https://tech.buzzfeed.com/ <br/>
+
+---
+### Other blogs
+- InfoQ: https://www.infoq.com/
+- Mostly Python: https://www.mostlypython.com/archive?sort=new
+- The Engineering Manager: https://www.theengineeringmanager.com/
