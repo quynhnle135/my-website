@@ -6,10 +6,9 @@ const FeatureList = [
     title: 'About Me',
     description: (
       <>
-        My name is Quinn Le and I am a proud graduate from UoPeople with a major in Computer Science. With a strong passion for technology and problem-solving, I aim to contribute innovative solutions to complex challenges in the tech industry. Leveraging my knowledge of modern development frameworks, I'm eager to join a team where I can continue to grow and make a meaningful impact.
-        <br/>
-        <br/>
-        You can view my projects <a href="docs/intro">here</a>.
+        - Hi, I'm Quinn Le, a graduate with a B.S. in Computer Science from UoPeople. I love technology and solving problems. I'm excited to use my skills in modern development frameworks to help tackle challenges in the tech world. I'm looking for a team where I can keep growing and make a real difference. <br/>
+        - This website is not only a personal technology archive, chronicling my evolution as a software engineer, but also a reflective space where I store and revisit the tech articles and research that have influenced my journey <br/>
+        - You can view my projects <b><i><a href="docs/intro">here</a>.</i></b>
         <br/>
       </>
     ),
@@ -18,32 +17,15 @@ const FeatureList = [
     title: "What's Inside?",
     description: (
       <>
-        - <b>Daily Learnings</b>: Every entry is a candid reflection of the day's learning experiences, from mastering new algorithms to tackling complex coding problems. It's an honest account of the progress I make and the concepts I grapple with. <br/>
-        <br/>
-        - <b>Project Chronicles</b>: I document the development of my projects from mere ideas to fully functioning applications. These stories include moments of epiphany, instances of stumbling blocks, and the ultimate joy of creation. <br/>
-        <br/>
-        - <b>LeetCode Grind</b>: A special section dedicated to my preparations for the tech industry job market. It's a compilation of my attempts, solutions, and learnings as I solve LeetCode challenges, improving my coding skills and preparing for technical interviews. <br/>
-        <br/>
-        - <b>Reflections and Improvements</b>: This journal is also a space for introspection. I reflect on my approaches, strategies, and learning methods, assessing what works and where I need to pivot to enhance my understanding and efficiency.<br/>
-        <br/>
-      </>
-    ),
-  },
-  {
-    title: "Why Share My Journey?",
-    description: (
-      <>
-        I believe in the power of sharing knowledge and experiences. By documenting my journey, I hope to: <br/>
-          <br/>
-          - <b>Track My Growth</b>: Seeing how far I've come is a powerful motivator. It's easy to forget yesterday's achievements; writing them down makes them tangible. <br/>
-          <br/>
-          - <b>Cultivate Discipline</b>: The commitment to daily updates encourages a consistent and disciplined approach to learning and problem-solving. <br/>
-          <br/>
-          - <b>Build a Community</b>: I invite fellow learners to engage, share their thoughts, and offer feedback. Together, we can learn and grow. <br/>
-          <br/>
-          - <b>Inspire Others</b>: If my journey can light the path for someone else, or provide the spark that someone needs to start their own journey, then sharing these experiences is all the more worthwhile. <br/>
+        <b>1. Book Reviews:</b> Join me on a literary journey through the tech world. In this section, I share my personal thoughts on various tech books I've read and coded along with. Whether you're looking for inspiration or technical guidance, these reviews provide a comprehensive look at each book's content and practical applications. <br/>
 
+        <b>2. Journals</b>: Follow my day-to-day coding adventure! My journals are updated daily to track my progress in the coding landscape. In each entry, I discuss what I learned, lingering questions, challenges I faced, and snippets of code I wrote. It's a raw, unfiltered look at the life of a coder. <br/>
 
+        <b>3. Research Topics</b>: This is where my curiosity meets exploration. Here, I compile notes from my research conducted online as I navigate the programming world. It's a collection of discoveries, theories, and insights that have shaped my understanding of various programming concepts. <br/>
+
+        <b>4. Tech Blogs</b>: Discover a curated archive of amazing tech blog sources and articles. After reading each one, I provide summaries and key takeaways, making it easier for you to absorb the essence of these insightful resources. It's a goldmine for anyone interested in the latest tech trends and discussions. <br/>
+
+       <b>5. Troubleshooting</b>: Encounter the challenges and triumphs of coding projects. In this section, I document the issues I've faced during coding and project development, along with the strategies I employed to overcome them. It's a practical guide filled with real-world problem-solving techniques. <br/>
       </>
     ),
   },

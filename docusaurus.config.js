@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Quinn Le",
-  tagline: 'Welcome to my Online Learning Journal.',
+  tagline: 'Welcome to My Learning Hub: Where Journals, Books, Researchs, and Practical Solutions Meet.',
   favicon: 'img/meowbulb.svg',
 
   // Set the production url of your site here
@@ -73,13 +73,6 @@ const config = {
             label: 'Book Reviews',
           },
           {
-            to: '/docs/category/communications',
-            type: 'docsVersion',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Communications',
-          },
-          {
             type: 'docsVersion',
             to: '/docs/category/learning-journal',
             position: 'left',
@@ -104,7 +97,7 @@ const config = {
             type: 'docsVersion',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Trouble Shooting',
+            label: 'Troubleshooting',
           },
           {
             href: 'https://github.com/quynhnle135',
@@ -128,10 +121,6 @@ const config = {
                 to: '/docs/category/book-reviews',
               },
               {
-                label: 'Communications',
-                to: '/docs/category/communications',
-              },
-              {
                 label: 'Journals',
                 to: '/docs/category/learning-journal',
               },
@@ -144,7 +133,7 @@ const config = {
                 to: '/docs/category/tech-blogs',
               },
               {
-                label: 'Trouble Shooting',
+                label: 'Troubleshooting',
                 to: '/docs/category/trouble-shooting',
               }
             ]
