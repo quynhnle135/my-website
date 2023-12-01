@@ -2,10 +2,6 @@
 title: Archive
 ---
 
----
-title: Technical Blogs List
----
-
 # Technical Blogs List
 
 ## FANNG
