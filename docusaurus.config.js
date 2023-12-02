@@ -93,7 +93,7 @@ const config = {
             label: 'Tech Blogs',
           },
           {
-            to: '/docs/category/trouble-shooting',
+            to: '/docs/category/troubleshooting',
             type: 'docsVersion',
             sidebarId: 'tutorialSidebar',
             position: 'left',
@@ -134,7 +134,7 @@ const config = {
               },
               {
                 label: 'Troubleshooting',
-                to: '/docs/category/trouble-shooting',
+                to: '/docs/category/troubleshooting',
               }
             ]
           },
