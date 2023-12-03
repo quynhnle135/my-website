@@ -4,8 +4,6 @@ title: 50 Common Interview Questions
 
 # 50 Common Interview Questions
 
-* Link: https://www.linkedin.com/feed/update/urn:li:activity:7001056773633654784/
-
 ### Opening Questions
 - Tell me about yourself
 - Why do you want to work for this company?
@@ -68,3 +66,6 @@ title: 50 Common Interview Questions
 - What other companies are you interviewing with?
 - When could you start?
 - Do you have any question for us? 
+
+---
+You can check the full post [here](https://www.linkedin.com/feed/update/urn:li:activity:7001056773633654784/)

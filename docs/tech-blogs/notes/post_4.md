@@ -26,7 +26,12 @@ title: Career Mistakes to Avoid as A Developer
         - Start working on these defined tasks. You may find many resources on internet. Glance over them to create an index of resources that you can understand easily and relate to well.
         - Read and watch tutorials, but also practice hard.
         - Finally, recognize your progress.
-6. You Don't Ask for What You Want: Oftentimes in your career journey, if you do not ask, you simply won't get what you want or deserve. If someone has some knowledge and you lack it, ask about it. If you have a question about something, ask before you commit to the work. Ask about your promotion, a salary hike, career growth, and anything that is related to your career. There is no such thing as a silly question when it comes to your career growth.
+6. You Don't Ask for What You Want: 
+    - Oftentimes in your career journey, if you do not ask, you simply won't get what you want or deserve. 
+    - If someone has some knowledge and you lack it, ask about it. 
+    - If you have a question about something, ask before you commit to the work. 
+    - Ask about your promotion, a salary hike, career growth, and anything that is related to your career. 
+    - There is no such thing as a silly question when it comes to your career growth.
 7. You Only Focus on the Money: Of course, money is important but when it comes to job switching, you should ask yourself these questions:
     - What will be my technical growth and learning opportunities?
     - What will the work environment be like? Remote/Work From Office/Hybrid? How will that impact me?
@@ -36,7 +41,7 @@ title: Career Mistakes to Avoid as A Developer
     - What are the company's vision, culture, and values?
 8. You Neglect Work-Life Balance: 
     - We all need to find a way to sustain both work and life. So plan ahead, and stick to your schedule as much as possible. There might be exceptions where you have to give one thing priority above another – but do not allow the exception to become the norm.
-9. You miss Out on Learning Opportunities: 
+9. You Miss Out on Learning Opportunities: 
     - When we learn from someone, we not only come to understand what they've achieved or how they did it, but we also learn about the struggles, failures, and how they made the turnaround. 
     - Learning from someone else's experience can help accelerate your career journey. Don't make the mistake of living in a silo and missing out on these opportunities.
 10. You Can't See the Bigger Picture: 

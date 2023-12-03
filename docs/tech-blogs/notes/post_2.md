@@ -4,8 +4,6 @@ title: Common HTTP Verbs
 
 # Common HTTP Verbs
 
-* Link: https://www.linkedin.com/feed/update/urn:li:activity:7129153243707789312/
-
 1. HTTP GET: <br/>
 This retrieves a resource from the server. It is idempotent. Multiple identical requests return the same result. 
  
@@ -33,4 +31,6 @@ This describes the communication options for the target resource.
 9. HTTP TRACE: <br/> 
 This performs a message loop-back test along the path to the target resource. 
 
+---
 
+You can check the full post [here](https://www.linkedin.com/feed/update/urn:li:activity:7129153243707789312/)
