@@ -37,6 +37,8 @@ For these productivity tips, there are four themes for an easy reference:
 ## 4. Consider focusing your view
 - Unless you're dealing with an exceptionally complex scenario that requires aggregating multiple information sources, it may be more productive to narrow down your focus.
 
+---
+
 # Optimize your coding workflow
 ## 5. Learn Regex
 - Regular expression (regex) are an incredibly potent tool for refactoring and searching.
@@ -63,12 +65,25 @@ For these productivity tips, there are four themes for an easy reference:
 - The key is to return to your problem with a fresh mindset, which may provide a different perspective and help smooth the process
 
 ## 11. Leverage Github's online editor
+- For those hosting their repositories on GitHub, then you can take advantage of the online VSCode editor at github.dev. This can help with PR reviews (including leaving comments, suggestions, etc.) and small commits without switching branches locally.
+- You can simply modify the PR’s URL from github.com to github.dev, or press . while on the PR to access the online IDE directly.
+
+---
 
 # Make your debugging resourceful
 ## 12. Debug your queries sooner
+- When working with an ORM, handling complex SQL queries may not always be straightforward. 
+- When you encounter issues such as test failures or unexpected behavior while working on a feature, begin by examining what the ORM is generating behind the scenes.
+- Verify that the generated query aligns with what should be executed.
+
 ## 13. Master your error messages
+- Sadly, not all errors come with clear explanations, especially those originating in low-level vendor code. Therefore, it’s crucial to invest extra effort in comprehending the error and its underlying cause.
+- The next time you encounter a similar error, you should promptly recognize the root cause or what might help understand it. This proactive approach can save you valuable time in troubleshooting and resolving issues.
+
 ## 14. Tranform each debug session into a learning opotunity
 - Stay vigilant about anything that slows down your progress, and be sure to transform your debugging experiences into valuable learning opportunities. So you can adapt your debugging strategies to what you missed the last time.
+
+---
 
 # Work on your soft-skills
 ## 15. Never forget what you did and what you have to do again
@@ -97,4 +112,5 @@ For these productivity tips, there are four themes for an easy reference:
 - When waiting on others, gently nudge them to take action. Ensuring that tasks requiring their input are completed promptly benefits everyone involved and helps prevent a sudden pile-up of tasks, which can disrupt your workflow and make context-switching challenging.
 
 ---
+
 You can read the full article [here](https://medium.com/studocu-techblog/20-practical-productivity-tips-that-you-can-start-doing-today-as-a-developer-no-pomodoro-b45766724f51)
