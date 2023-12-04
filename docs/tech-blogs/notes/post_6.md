@@ -1,5 +1,5 @@
 ---
-title: It's harder thatn ever to be a good software engineer
+title: It's harder than ever to be a good software engineer
 ---
 
 # Unpopular Opinion: It's harder than ever to be a good software engineer.
