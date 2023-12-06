@@ -22,6 +22,8 @@ title: Writing tests for Expense Manager project (2)
             */asgi.py
         ```
 
+---
+
 ## 2. Do I really need to test the urls.py file in my Django app?
 - Yes, testing the <b>urls.py</b> file in a Django application is important:
     * Ensuring correct URL-To-View Mapping:
@@ -29,6 +31,7 @@ title: Writing tests for Expense Manager project (2)
     * Verifying URL parameters and patterns
     * Improve code coverage
 
+---
 
 ## 3. How I Wrote Tests for url.py file?
 - Writing tests for <b>urls.py</b> is quite easy in opinion.
@@ -39,6 +42,8 @@ title: Writing tests for Expense Manager project (2)
 - Resolve:
     * The <b>resolve</b> function is used to find which view function correspond to a give URL path. It's the reverse of <b>reverse</b>
     * You use <b>resolve</b> to verify that a particular URL path resolves to the correct view function or class. This is the key for ensuring that your URL configuration correctly maps URLs to views.
+
+---
 
 ## 4. Let's take one test as an example
 

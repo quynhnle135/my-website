@@ -14,6 +14,8 @@ title: Writing tests for Expense Manager project (3)
 - In my views, I need to make sure that users are authenticated and logged in first to access other views besides login and register, or if user updates or delete an expense successfully. Therefore, the HTTP 302 FOUND redirect status reponse code will be seen in my tests. This HTTP 302 Found redirect status response code indicates that the resrouce requested has been temporarily moved the URL given by the Location header.
 - You can read more about HTTP Status Code [here](https://http.cat/)
 
+---
+
 ## 2. The logic behind writing tests for views.py
 - Testing the HTTP Response and Status Codes: Verifying that each view returns the correct HTTP response and status code for various request scenarios.
 - Validating template use and context data: Ensure that the view uses the correct template and that the context data passed to the template is as expected.
@@ -21,6 +23,8 @@ title: Writing tests for Expense Manager project (3)
 - Checking redirect flows
 - Form handling and validation
 - Handling GET and POST requests
+
+---
 
 ## 3. Tests I wrote for views.py
 
