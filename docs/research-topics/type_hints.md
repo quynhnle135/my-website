@@ -1,6 +1,7 @@
 ---
 title: Type Hints in Python
 ---
+# Type Hints in Python
 
 ## 1. What is type hint?
 
