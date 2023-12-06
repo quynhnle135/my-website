@@ -2,7 +2,7 @@
 title: How to Become a High-Performing Software Team
 ---
 
-* Four major elements that enable high-performing teams:
+### Four major elements that enable high-performing teams:
     - Purpose creates autonomy
     - Decentralized decision-making fuels empowerment
     - High trust with psychological safety accelerates cohesion
@@ -16,7 +16,7 @@ title: How to Become a High-Performing Software Team
 ### Why do some teams perform better than others?
 - The reasons why some teams perform better than other has everything to do with two things: the intentional practices they put in place and the environment leadership creates.
 
-## What practices can help teams to unleash their potentials?
+### What practices can help teams to unleash their potentials?
 - Give the team larger purpose behind their work and where they are going by creating a team vision statement
 - Decentralize the way you make decisions as a team by running a game of delegation poker
 - Reflect on the health of your team practices by running a retrospective focused specifically on how you work as a team
