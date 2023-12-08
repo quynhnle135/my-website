@@ -79,8 +79,8 @@ if __name__ == "__main__":
 ```
 Output:
 >>> 1
->> 2
->> Aircarft
+>>> 2
+>>> Aircarft
 ```
 
 ## Encapsulation
@@ -108,7 +108,10 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+```
+Output
+>>> Aircraft
+```
 ## Inheritance
 - Inheritance is the ability to build new classes on top of existing one. 
 - The main benefit of inheritance is <b>code reuse</b>. If you want to create a class that's slightly different from an existing one, there's no need to duplicate code.
