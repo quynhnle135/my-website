@@ -24,4 +24,6 @@ Most patterns are described very formally so people can reproduce them in many c
     * Behavioral patterns: take care of effective communication and the assignment of responsibilities between objects.
 
 ## Why should I learn patterns?
-- Design patterns are a toolkit of <b>tried and tested solutions</b> to common problems in software design
+- Design patterns are a toolkit of <b>tried and tested solutions</b> to common problems in software design. Even if you never encounter these problems, knowing patterns is still useful because it teaches you how to solve all sorts of problems using principles of object-oriented design
+- Design patterns define a common language that you and your teammates can use to communicate more efficiently.
+
