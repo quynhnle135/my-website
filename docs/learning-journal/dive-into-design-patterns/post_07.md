@@ -9,6 +9,7 @@ title: Creational Design Patterns (4) - Prototype
 - An object that supports cloning is called a prototype. When you objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing
 - Here's how it works: you create a set of objects, configured in various ways. When you need an object like the one you've configured, you just cloned a prototype instead of constructing a new object from scratch
 - Here's the structure of Prototype:
+
 ![Prototype Structure](screenshots/prototype_structure.png)
 
 - Here's what I coded following along the Pseudocode:
@@ -106,6 +107,8 @@ print(f"Original rectangle: {rec}")
 print(f"Clone rectangle: {rec_clone}")
 ```
 
+---
+
 ## Applicability:
 - Use the Prototype pattern when your code shouldn't depend on the concrete classes of objects that you need to copy
     * This happens a lot when your code works with objects passed to you from 3rd-party code via some interface. The concrete classes of these objects are unknown, and you couldn't depend on them even if you wanted to 
@@ -125,4 +128,4 @@ print(f"Clone rectangle: {rec_clone}")
 
 ---
 
-I also did a small researc about Shallow Copy vs. Deep Copy when learning about this concept
+I also did a small research about [Shallow Copy vs. Deep Copy](https://quinnle.io/docs/research-topics/copy_in_python) when learning about this concept

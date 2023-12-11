@@ -7,9 +7,11 @@ title: Creational Design Patterns (3) - Builder
 - Buider is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code
 - The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called <b>builders</b>
 - Here's the structure of Builder pattern:
+
 ![Builder Structure](screenshots/builder_structure.png)
 
 - Here's my code when following the structure:
+
 ```python
 from abc import ABC, abstractmethod
 
@@ -116,6 +118,8 @@ if __name__ == "__main__":
     main()
 
 ```
+
+---
 
 ## Applicability
 - Use the Builder pattern to get rid of a "telescoping constructor"
