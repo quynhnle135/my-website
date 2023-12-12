@@ -9,6 +9,39 @@ title: Creational Design Patterns - Factory Method vs. Abstract Factory
 - Usage: Used when the creation logic of an object might change or can be extended, and when the object creation can be deferred to subclasses
 - Implementation: A single method (factory method) in a class for creating an object. Subclasses can override this method to change the type of objects will be created
 
+---
+
+### Here's another summary for Factory:
+
+**The Factory design pattern** is a creational pattern that **centralizes object creation logic** in a separate class called a **"factory"**. This factory then decides which concrete object to create based on specific criteria, instead of the client code directly instantiating the object itself.
+
+**Benefits of using Factory:**
+
+* **Encapsulation:** Hides the object creation logic, making the code cleaner and more maintainable.
+* **Flexibility:** Allows for easily adding new types of objects without modifying existing code.
+* **Decoupling:** Separates the client code from the creation logic, making it easier to test and reuse.
+* **Single Responsibility Principle:** Follows the SRP by focusing the factory solely on object creation.
+
+**Imagine a car factory:**
+* You only need to request a specific model, like a sedan or SUV.
+* The factory handles all the complex steps involved in building that specific car.
+* You don't need to know the details of how each car is built.
+
+**Likewise, in software:**
+* You request a specific type of object from the factory.
+* The factory creates and returns the appropriate object based on your request.
+* You don't need to know the details of how each object is created.
+
+**When to use Factory:**
+
+* When you have a superclass with multiple subclasses and need to create objects of different types based on specific conditions.
+* When you want to hide the complexity of object creation from the client code.
+* When you want to increase the flexibility and maintainability of your code.
+
+**In short, Factory makes your code cleaner, more flexible, and easier to maintain.**
+
+---
+
 Example:
 ```python
 class Animal:
@@ -50,14 +83,16 @@ Output:
 ```
 
 ### Why can't I just create a dog instance by calling the Dog() object directly?
-- Decoupling code: Factory methods decouple the creation of objects from their usage, which means that the rest of your code doesn't need to know about the concrete classes requried to create these objects. As the example above, user doesn't need if there're subclasses ```Dog()``` or ```Cat()``` or any animal subclass; they're able to create an Animal subclass by calling ```AnimalFactory()```
+- Decoupling code: Factory methods decouple the creation of objects from their usage, which means that the rest of your code doesn't need to know about the concrete classes required to create these objects. As the example above, user doesn't need to know if there're subclasses ```Dog()``` or ```Cat()``` or any animal subclass; they're still able to create an Animal subclass by calling ```AnimalFactory()```
 - Flexibility and Extensibility: Adding new types or new Animal subclasses become easier and doesn't require changing the client code. You can extend the factory to handle new types, providing greater flexibility and making the codebase more maintainable
 - Conditional Logic for Object Creation and consistency in Object Creation: Ensuring that all objects of a certain type are created with consistent initialization logical can be crucial in some applications. A factory method centralize this creation logic.
+
 => While direct instantiation is simpler and suitable for many cases, the Factory Method pattern offers benefits in term of code maintainability, flexibility, and scalability, especially in complex system or when future extension are anticipated.
 
 ### Why don't we use @abstractmethod for speak() function in Animal class?
 - If you're sure that you won't create any instance from Animal object, you can add ```@abstractmethod``` decorator as well as import Abstract Base Class and mark ```Animal```  as ```abc```
 - However, it's still possible to include ```@abstractmethod``` in the example above, which makes it clear to anyone reading the code that ```speak()``` is required for every Animal subclasses and can be overriden. 
+
 
 ---
 
@@ -151,7 +186,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-- In this example, there are multiple factories are applied: ```WidgetFactory```, ````LightThemeWidgetFactory```, and ```DarkThemeFactory```
+- In this example, there are multiple factories are applied: ```WidgetFactory```, ```LightThemeWidgetFactory```, and ```DarkThemeFactory```
 - By applying the Abstract Method, a set of widget will be produced or returned based on the theme (Light or Dark)
 - Another example: You want to make your house as vintage as possible so you should buy vintage furniture set as well. A furniture set may include television, couch, chairs, and tables. By calling the ```VitangeFurnitureFactory```, you can easily get the whole set of vintages objects as mentioned previously.
 
@@ -166,4 +201,4 @@ if __name__ == "__main__":
 3. Flexibility:
     * Factory method: More flexible at the individual object level, as subclasses can override the factory method to change the way objects are created.
     * Abstract Factory: Offers flexibility at the family of related objects level, allowing you to switch between different families of products seamlessly
-    
+
