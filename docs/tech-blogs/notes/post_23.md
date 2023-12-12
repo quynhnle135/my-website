@@ -42,7 +42,8 @@ After a project ship, it’s crucial to remain vigilant.
 - In discussions or decision-making processes: It’s essential not to reject ideas without substantial evidence outright. 
 - Find solutions: Instead of using phrases like “We can’t do this” or “This is not possible,” employ a more constructive approach, like “We can try experimenting 1,2,3,” “How about we fix this by 1,2,3”.
 - Define the blockers: State that a task is possible but needs prioritization due to certain factors or suggest reconsidering specific aspects.
-=> You are a problem solver, not just a programer. So act like one. People should perceive you as the fixer, not a complainer
+
+&rarr; You are a problem solver, not just a programer. So act like one. People should perceive you as the fixer, not a complainer
 
 ## 6. Offer solutions, not just complains
 - Don’t just complain: Rather than simply voicing dissatisfaction, strive to present solutions. If you encounter an issue, propose ways to address it.
@@ -72,4 +73,15 @@ After a project ship, it’s crucial to remain vigilant.
 => Silence can often be perceived as a label of “unknown,” potentially hurting trust and understanding. 
 
 ---
+## Key notes and Takeaways
+- Do research before proposing any changes or initatives to your team or the current project
+- Be easy to be reached out and offer help if your co-workers or team members need it
+- Be active and on top of things so that you don't need constant reminders
+- Even a project is shipped, you should be alert and proactive in case there might be anything broken or not going well as planned
+- Instead of rejection and complaints, try to provide alternatives and offer solutions
+- Seek feedbacks and communicate within your team
+- Actively participate in team dicussion and planning
+
+---
+
 You can read the full article [here](https://basmataha199.substack.com/p/10-steps-to-earn-your-teams-trust?utm_source=profile&utm_medium=reader2)

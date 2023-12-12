@@ -60,11 +60,20 @@ I worked with a senior team member who wasn’t a leader, but he was a very infl
     * Humility is a hallmark of great leaders. They acknowledge their strengths and weaknesses, learn from mistakes, and appreciate the contributions of others. However, humility should not translate into timidity. Leaders must still be confident and assertive in their approach.
 
 - Pride without Arrogance:
-* Taking pride in one's accomplishments is healthy, but arrogance can be detrimental. Leaders should celebrate achievements and take pride in their team's success while remaining open to feedback and continuous improvement.
+    * Taking pride in one's accomplishments is healthy, but arrogance can be detrimental. Leaders should celebrate achievements and take pride in their team's success while remaining open to feedback and continuous improvement.
 
 - Humor without Folly:
     * A sense of humor can be a powerful tool in leadership, fostering a positive work environment. However, humor should never be at the expense of professionalism or used to downplay serious matters. It should contribute to a positive atmosphere without undermining the gravity of the work.
 
 --- 
+
+## Key notes and takeways
+Basically, to become a great leader, you should: 
+- Easy to be reached out and ready to offer help if needed. 
+- Easy to collaborate with and create and supportive working environment.
+- Provide clear guidance, actionable advices, and honest feedbacks.
+- Listen to your team members or employee attentively so that you can understand thoroughly what they've gone through, what they've achived, or if there's any blocker that they're currently facing with.
+
+---
 
 You can read the full article [here](https://basmataha199.substack.com/p/the-best-leadership-quotes-and-how?utm_source=profile&utm_medium=reader2)

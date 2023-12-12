@@ -6,8 +6,7 @@ title: 7 Simple Habits of The Top 1% of Engineers
 
 ## 1. Code for the human, not the computer
 
->"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler
-
+> <i>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler</i>
 
 - The best engineers I know are producted-minded: thinking about solving a problem for humans first
 - The best engineers I knew always evaluated the value of their code, for all audiences

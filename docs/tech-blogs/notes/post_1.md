@@ -15,7 +15,7 @@ title: How To Use Marketing Techniques To Build A Better Resume
 * Use the experience section to focus on the impact of your work and the soft skills you used to achieve. What did you do, how did you do it, but most importantly what was the outcome.
     
 
-&rarr; In conclusion, when you're looking for a job, your potential customer is the hiring manager so the more thought you put into your resume, the better. By creating multiple resumes tailored for the various positions, industries, and company sizes that you're applying for, you'll have a better chance to get a call back and an interview.
+&rarr; In conclusion, when you're looking for a job, your potential customer is the hiring manager so the more thought you put into your resume, the better. <mark>By creating multiple resumes tailored for the various positions, industries, and company sizes that you're applying for, you'll have a better chance to get a call back and an interview.</mark>
 
 ---
 You can read the full article [here](https://stackoverflow.blog/2023/05/24/how-to-use-marketing-techniques-to-build-a-better-resume/)

@@ -53,4 +53,15 @@ title: Give Your Manager Reasons to Advocate for You
     * Allowing you to say to to tasks you don't like or don't want to work on. 
 
 ---
+
+## Key notes and takeways
+- Be prepared for any thing and any situation:
+    * Prepare yourself to help your manager to help you: Identify your strengths, weaknesses, and challenges you may be facing at the moment; self-reflect on your progress.
+    * Prepare agenda for every one-on-one: It's idea to have an outline what an idea one-on-one looks like for you by preparing all the questions you want to ask your manager, things you've been working on, achieved, or found challenging. By this, you will make the every one-on-one fruitful and time saving for both of you and your manager.
+    * Prepare when things go wrong
+- Make sure all the deadlines are met and your tasks are done based on your manager's <i>definition of done</i>
+- Appreciate your manager, make sure you communicate well and clearly with you manager: Inform if you've accomplished something, acknowledge them if you're facing any blocker, reach out and offer help if possible
+
+---
+
 You can read the full article [here](https://basmataha199.substack.com/p/give-your-manager-reasons-to-advocate?utm_source=%2Fbrowse%2Ftechnology&utm_medium=reader2&ref=dailydev)
