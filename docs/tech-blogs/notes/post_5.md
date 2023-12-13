@@ -11,4 +11,5 @@ title: ChatGPT to Help You Become a 10x Programmer
 5. Generate tests for your program
 
 ---
+
 You can read the article [here](https://habr.com/en/articles/744826/?ref=dailydev)
