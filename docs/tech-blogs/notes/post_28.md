@@ -72,6 +72,186 @@ title: Data Structures Handbook - The Key to Scalable Software
     * Linked list's size is flexible and the efficiency of insertions and deletions
     * It can increase memory due to the storage of references and lack of direct element access
 
+- Here's my Singly LinkedList implementation in Python:
+```python
+class Node:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
+class SinglyLinkedList:
+    def __init__(self, head=None):
+        self.head = head
+
+    def print_list(self):
+        cur = self.head
+        # Loop through the list from the head node to the end
+        while cur.next:
+            print(cur.val, end=" -> ")
+            cur = cur.next
+        # Print the value of the last node followed by 'null'
+        print(cur.val, end=" -> null")
+        print()
+
+    def is_empty(self):
+        if not self.head:
+            return True
+        return False
+
+    def insert_at_the_head(self, node: Node()):
+        if self.is_empty():
+            self.head = node
+        else:
+            node.next = self.head
+            self.head = node
+
+    def insert_at_the_end(self, node: Node()):
+        # If the list is empty, set the new node as the head
+        if self.is_empty():
+            self.head = node
+            return
+
+        # Otherwise, traverse to the lst node
+        cur = self.head
+        while cur.next:
+            cur = cur.next
+
+        # Set the new node as the next of the last node
+        cur.next = node
+
+    # Insert based on the given value
+    def insert(self, target: int, node: Node()):
+        # Set the new node as the head if the list is empty
+        if self.is_empty():
+            self.head = node
+            return
+
+        # Traverse the list to find the target value
+        cur = self.head
+        while cur.next:
+            if cur.val == target:
+                # Insert the new node after the current node
+                node.next = cur.next
+                cur.next = node
+                return
+            cur = cur.next
+        return ValueError(f"Target {target} not found in the list")
+
+    def remove_head(self):
+        # Return None if the list is empty
+        if self.is_empty():
+            return None
+
+        # Set the next node as the new head
+        self.head = self.head.next
+
+    def remove_the_last_node(self):
+        # Return None if the list is empty
+        if self.is_empty():
+            return None
+
+        # If the list has only one element
+        if not self.head.next:
+            self.head = None
+            return
+
+        # Traverse to find the second-to-last node
+        prev = None
+        cur = self.head
+        while cur.next:
+            prev = cur
+            cur = cur.next
+
+        # Remove the last node by setting the second-to-last node's next to None
+        prev.next = None
+
+    # Remove based on the given value
+    def remove_target_node(self, target: int):
+        # Return immediately if the list is empty
+        if self.is_empty():
+            print("This list is empty")
+            return None
+
+        # If the target node is the head
+        if self.head.val == target:
+            self.head = self.head.next
+            return
+
+        # Initialize previous and current node
+        prev = None
+        cur = self.head
+        while cur:
+            if cur.val == target:
+                prev.next = cur.next
+                return
+            prev = cur
+            cur = cur.next
+        print(f"Node with value {target} is not found.")
+
+    def search(self, target: int):
+        # Check if the list is empty
+        if self.is_empty():
+            print("The list is empty")
+            return False
+
+        cur = self.head
+
+        # Traverse through the list to find the target value
+        while cur:
+            if cur.val == target:
+                return True
+            cur = cur.next
+        
+        print(f"Node with value {target} is not found.")
+        return False
+
+
+def main():
+    head = Node(val=1)
+    head.next = Node(val=2)
+    head.next.next = Node(val=3)
+    head.next.next.next = Node(val=4)
+    head.next.next.next.next = Node(val=5)
+    my_list = SinglyLinkedList(head=head)
+    my_list.print_list()
+
+    print("Delete the head")
+    my_list.remove_head()
+    my_list.print_list()
+
+    print("Delete the tail")
+    my_list.remove_the_last_node()
+    my_list.print_list()
+
+    print("Delete the node 3")
+    my_list.remove_target_node(target=3)
+    my_list.print_list()
+
+    print("Insert new node at the head")
+    new_node_1 = Node(val=10)
+    my_list.insert_at_the_head(node=new_node_1)
+    my_list.print_list()
+
+    print("Insert new node at the end")
+    new_node_2 = Node(val=20)
+    my_list.insert_at_the_end(node=new_node_2)
+    my_list.print_list()
+
+    print("Insert new node next to 4")
+    new_node_3 = Node(val=30)
+    my_list.insert(target=4, node=new_node_3)
+    my_list.print_list()
+
+    print("Search for node 30:", my_list.search(target=30))
+    print("Search for node 100:", my_list.search(target=100))
+
+
+if __name__ == "__main__":
+    main()
+
+```
+
 ---
 
 ## 5. Double Linked List Data Structure
@@ -101,7 +281,30 @@ title: Data Structures Handbook - The Key to Scalable Software
 - Weaknesses: 
     * Limited access: because you can only intereact with the top element
     * Memory constraints: stacks can run out of memory if pushed to their limits
+- Here's my Stack implementation in Python:
+```python
+class Stack(object):
+    def __init__(self):
+        self.items = []
 
+    def is_empty(self):
+        return self.items == []
+
+    def push(self, value: str):
+        self.items.append(value)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop()
+
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+
+    def get_stack(self):
+        return self.items
+
+```
 ---
 
 ## 7. Queue Data Structure
@@ -125,7 +328,71 @@ title: Data Structures Handbook - The Key to Scalable Software
     * Adding nodes 
     * Removing nodes
     * Traversing the tree: in-order traversal (LNR), pre-order traversal (NLR), and post-order traversal (LRN)
-   
+
+- Here's my Tree implementation and traversal in Python:
+```python
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+def preorderTraversal(root):
+    return preorderTraversal_helper(root, [])
+
+
+def preorderTraversal_helper(root, traversal):
+    if root:
+        traversal.append(root.val)
+        traversal = preorderTraversal_helper(root.left, traversal)
+        traversal = preorderTraversal_helper(root.right, traversal)
+    return traversal
+
+
+def postorderTraversal(root):
+    return postorderTraversal_helper(root, [])
+
+
+def postorderTraversal_helper(root, traversal):
+    if root:
+        traversal = postorderTraversal_helper(root.left, traversal)
+        traversal = postorderTraversal_helper(root.right, traversal)
+        traversal.append(root.val)
+    return traversal
+
+
+def inorderTraversal(root):
+    return inorderTraversal_helper(root, [])
+
+
+def inorderTraversal_helper(root, traversal):
+    if root:
+        traversal = inorderTraversal_helper(root.left, traversal)
+        traversal.append(root.val)
+        traversal = inorderTraversal_helper(root.right, traversal)
+    return traversal
+
+
+def main():
+    root = TreeNode(10)
+    root.left = TreeNode(5)
+    root.left.left = TreeNode(2)
+    root.left.right = TreeNode(7)
+    root.right = TreeNode(18)
+    root.right.left = TreeNode(15)
+    root.right.right = TreeNode(22)
+
+    print(preorderTraversal(root))
+    print(postorderTraversal(root))
+    print(inorderTraversal(root))
+
+
+if __name__ == "__main__":
+    main()
+
+
+```
 ---
 
 ## 9. Graph Data Structure
@@ -157,7 +424,54 @@ title: Data Structures Handbook - The Key to Scalable Software
     * Traversal operation takes O(n) time complexity dependent on the number of elements
 - Space complexity: O(n)
 - Advantages: Hash tables offer fast data access and efficient key-based retrieval
+- Here's a dictionary (hash table) application in Python by coverting Romanian number to Integers:
+```python
+def romanToInt(s):
+    roman_dict = {
+        "I": 1,
+        "V": 5,
+        "X": 10,
+        "L": 50,
+        "C": 100,
+        "D": 500,
+        "M": 1000
+    }
 
+    special_cases = {
+        "IV": 4,
+        "IX": 9,
+        "XL": 40,
+        "XC": 90,
+        "CD": 400,
+        "CM": 900
+    }
+
+    val = 0
+    i = 0
+    n = len(s)
+
+    while i < n:
+        if i + 1 < n and s[i: i + 2] in special_cases:
+            val += special_cases[s[i: i + 2]]
+            i += 2
+        else:
+            val += roman_dict[s[i]]
+            i += 1
+
+    return val
+
+
+def main():
+    print(romanToInt("III"))  # 3
+    print(romanToInt("LVIII"))  # 18
+    print(romanToInt("MCMXCIV"))  # 1994
+
+
+if __name__ == "__main__":
+    main()
+
+
+```
 ---
 
 ## 11. How to Unleash the Power of Data Structures in Programming
