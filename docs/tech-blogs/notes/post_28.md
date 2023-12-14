@@ -61,12 +61,12 @@ title: Data Structures Handbook - The Key to Scalable Software
 
 ## 4. Singly Linked List Data Structure
 - Single linked list is like a sequence of train carriages connected in a line, where each carriage is an individual data element
-- A linked list is a <b><i>sequential, dynamic collection</b></i> of elements termed as nodes. Each node points to its successor
+- A linked list is a <b><i>sequential, dynamic collection</i></b> of elements termed as nodes. Each node points to its successor
 - What does a linked list do?
-    * The core functionality is its <b><i>sequential data arrangement</b></i>
-    * Each node, containing data and a reference to next node, streamlines operations like <b><i>insertions and deletions, offering a highly efficient data management system</b></i>
-- <b><i>The structure of a linked list</b></i> is built upon nodes. Every node consists of two parts: the data itself and a pointer to the next node
-- <b><i>When are linked lists used?</b></i>: They are excellent in environments where data is frequently inserted of removed.
+    * The core functionality is its <b><i>sequential data arrangement</i></b>
+    * Each node, containing data and a reference to next node, streamlines operations like <b><i>insertions and deletions, offering a highly efficient data management system</i></b>
+- <b><i>The structure of a linked list</i></b> is built upon nodes. Every node consists of two parts: the data itself and a pointer to the next node
+- <b><i>When are linked lists used?</i></b>: They are excellent in environments where data is frequently inserted of removed.
 - Pros and cons:
     * Linked list's size is flexible and the efficiency of insertions and deletions
     * It can increase memory due to the storage of references and lack of direct element access
@@ -75,11 +75,11 @@ title: Data Structures Handbook - The Key to Scalable Software
 
 ## 5. Double Linked List Data Structure
 - Unlike its single-linked cousin, this structure gives nodes the luxury of knowing both their predecessor and successor, a feature that fundamentally changes how data can be traversed and manipulated.
-- <b><i>What does a double linked list do?</b></i>
+- <b><i>What does a double linked list do?</i></b>
     * Double linked lists are the multitaskers of the data structure world, adept at forward and backward data navigation.
     * This structure enables users to step back and forth through elements with ease
-- Same as the single linked list, double linked list also has key operations such as <b><i>adding, removing, finding, iteration, and updating</b></i>
--  <b><i>When are Double Linked Lists used?</b></i>: 
+- Same as the single linked list, double linked list also has key operations such as <b><i>adding, removing, finding, iteration, and updating</i></b>
+-  <b><i>When are Double Linked Lists used?</i></b>: 
     * They can be used in systems where two-navigation is beneficial
     * They are used in browser histories, allowing users to move back and forth through previously visited sites
 - Pros and cons:

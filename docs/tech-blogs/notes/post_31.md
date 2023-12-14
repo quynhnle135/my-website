@@ -2,7 +2,7 @@
 title: The Hidden Superpower of Software Engineers
 ---
 
-# The Hiddne Superpower of Software Engineers: Communicating Through Writing
+# The Hidden Superpower of Software Engineers: Communicating Through Writing
 
 ## Types of posts to consider
 
