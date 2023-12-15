@@ -4,8 +4,6 @@ title: 3 differences between software engineers and engineering managers
 
 # 3 differences between software engineers and engineering managers
 
-
-
 **Software Engineer:**
 
 - **Technical Decision Making**: Act as a technical expert, making decisions on feature implementation, upholding technical standards, and advocating for the product's long-term technical strategy.

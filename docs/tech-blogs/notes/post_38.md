@@ -11,6 +11,8 @@ title: How to quickly learn a new framework or a technology
     * We are comfortable with what we know
     * We purchase a tutorial but never finish it
 
+---
+
 ## Enter the Feynman Technique
 - He offered a four step process for learning anything new:
     * Pick a topic and study it thoroughly
