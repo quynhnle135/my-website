@@ -8,6 +8,8 @@ title: From Senior to Staff Software Engineer - A manager perspective
     1. Impact
     2. Visbility
 
+---
+
 ## Impact
 - Here are some questions to consider:  
     * Are you capable of being a "lead of leads"?
