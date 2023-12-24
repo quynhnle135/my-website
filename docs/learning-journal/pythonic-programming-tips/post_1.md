@@ -161,7 +161,7 @@ def add(a, b):
 add(5, 4)
 ```
 
-&rarr; <b> <i>a</i> and <i>b</i> are the parameters, while <i>5</i> and <i>4</i> are the arguments passed
+&rarr; <i>a</i> and <i>b</i> are the parameters, while <i>5</i> and <i>4</i> are the arguments passed
 
 ## Avoid "magic" values
 - Magic values are constant that not self-explanatory, as if included in the program without reason
