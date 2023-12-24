@@ -134,7 +134,7 @@ You are 22 years old
 
 ## Mark dummy variables
 - Some looping statements in Python require that we declare a temporary, dummy, or a loop variable. The loop variable is created and updated automatically.
-- These loop variables are meant to use in the the body of the loop. However, there are some situation that this loop variable isn't used or wasted &rarr; <b><i>Python has a memorable name reserved for such variables: a single underscore.
+- These loop variables are meant to use in the the body of the loop. However, there are some situation that this loop variable isn't used or wasted &rarr; <b><i>Python has a memorable name reserved for such variables: a single underscore.</i></b>
 
 ```python
 # Mark dummy variables
