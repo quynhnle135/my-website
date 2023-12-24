@@ -2,15 +2,19 @@
 
 A personal coding journal crafted with [Docusaurus 3](https://docusaurus.io/), showcasing my growth as a developer. Tailored the site's look and feel with custom JavaScript and CSS modifications. Journal entries, written in Markdown, chronicle my learning experiences and programming insights.
 
-See my website at: https://quynhnle135.github.io/my-website/
+See my website at: https://quinnle.io/
 
 ## Features
 
-- Daily Coding Journal: Daily updates with new insights, learnings, and reflections on the coding journey.
-- LeetCode Progress Tracker: A chronological log of LeetCode problems I've tackled, capturing my evolving problem-solving skills and coding proficiency
-- Minimalist Design: A clean, minimalistic style that reflects my personal taste and ensures focus on content.
-- Customized Look and Feel: While based on Docusaurus, the site has been significantly customized with personal JavaScript and CSS tweaks to stand out and provide a unique user experience.
+- Learning Journal: Regularly updating with new insights, learnings, and reflections on the coding journey.
+- Book Reviews: Sharing my personal thoughts on various tech books I've read and coded along with.
+- Research Topics: Compiling notes from my research conducted online as I navigate the programming world, which is a collection of insights that have shaped my understanding of various programming concepts.
+- Tech Blogs: Providing summaries and key takeaways while reading latest tech articles and discussions.
+- Troubleshooting: Documenting issues I've faced during coding and project development.
 
-## Customizations
-- JavaScript Updates: Custom scripts have been added to enhance interactivity and user engagement.
-- CSS Overhaul: The default styling has been overhauled to mirror a minimalist aesthetic that I prefer for my digital journal.
+## Markdown File Manager
+- A versatile Python Command Line Interface (CLI) tool for managing Markdown files. This application allows for file validation, creation, reading, and automated generation of Markdown files based on customizable date ranges.
+- Check this tool's code repository [here](https://github.com/quynhnle135/markdown-file-manager)
+
+
+
