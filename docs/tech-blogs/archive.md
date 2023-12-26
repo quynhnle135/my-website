@@ -1,5 +1,6 @@
 ---
 title: Archive
+sidebar_position: 1
 ---
 
 # Technical Blogs List
