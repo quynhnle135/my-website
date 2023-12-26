@@ -1,5 +1,5 @@
 ---
-title: What I Learned from Do Hard Things
+title: What I Learned from Do Hard Things & Hard work doesn't scale
 ---
 
 # What I Learned from Do Hard Things
@@ -12,6 +12,15 @@ title: What I Learned from Do Hard Things
     - Focus: is when you zoom into the discomfort and observe. Focus on the pain and how it feels.
 &rarr; Disassociate throught the easy parts and bank your mental stamina for later when you need to focus on the hard parts.
 
----
 
 You can read the full article [here](https://swizec.com/blog/what-i-learned-from-do-hard-things/)
+
+---
+
+# Hard work doesn't scale
+- Author is a runner and he trained for a marathon, but he noticed that the more he trained, the slower he ran &rarr; Training a lot with out taking a break makes he run slower. When you don't run fast, you teach your legs to go slow.
+- Therefore, he decided to cut his training in half. As the result, he achieved the fastest result he's run!
+
+&rarr; <b><i>You cannot grind mindlessly on steady state work. You have to rest then push hard. Growth comes in cycles. Recover, push, recover.</i></b>
+
+You can read the full article [here](https://swizec.com/blog/hard-work-doesnt-scale/)
