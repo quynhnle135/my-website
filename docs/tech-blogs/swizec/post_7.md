@@ -21,5 +21,5 @@ title: Ownership makes careers
 
 ---
 
-[Ownership makes career](https://swizec.com/blog/ownership-makes-careers/)
-[Clarification on how ownership makes careers](https://swizec.com/blog/clarification-on-how-ownership-makes-careers/)
+- [Ownership makes career](https://swizec.com/blog/ownership-makes-careers/)
+- [Clarification on how ownership makes careers](https://swizec.com/blog/clarification-on-how-ownership-makes-careers/)
