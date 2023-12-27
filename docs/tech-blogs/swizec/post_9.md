@@ -4,7 +4,7 @@ title: You can't stop the business, or why rewrites fail
 
 # You can't stop the business, or why rewrites fail
 
-- In Things You Should Never Do essay, Joel Spolsky says never to attempt a write. It cannot succeed and you're throwing away lessons learned. Lessons you'll need to re-learn again.
+- In [Things You Should Never Do](https://quinnle.io/docs/tech-blogs/notes/post_31) essay, Joel Spolsky says never to attempt a write. It cannot succeed and you're throwing away lessons learned. Lessons you'll need to re-learn again.
 - Joel is talking about the types of rewrites engineers first think of when they hear "rewrite":
     - Stop the world and rewrite
     - Build a new system next to the old
@@ -35,6 +35,7 @@ title: You can't stop the business, or why rewrites fail
 - However, the target is running away because it would take a lot of time to catch up with the moving target &rarr; The biggest challenge with chasing the moving target is that the old code continues to kick the can (avoid or delay dealing with a problem), while other teams find new use-cases and uncover bugs, you have to build those twice - once in the old code, once in the new code. 
 
 &rarr; In conclusion, based on the example provided by Swizec, its' difficult, complicated, costly, and taking a lot of time to rewrite a big system. Therefore, try your best to avoid rewriting. 
+
 ---
 
 You can read the full article [here](https://swizec.com/blog/you-can-t-stop-the-business-or-why-rewrites-fail/)

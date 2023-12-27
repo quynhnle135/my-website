@@ -9,16 +9,14 @@ title: Things You Should Never Do
 &rarr; The reason that they think the old code is a mess is because of a cardinal, fundemental law of programming: <b><i>It's harder to read code than to write it</i></b>
 - Old code has been <i>used</i>. It has been <i>tested</i>. Lost of bugs have been found, and they've been <i>fixed</i> &rarr; When you throw away code and start from scratch, you are throwing away all that knowledge. All those collected bug fixes. Years of programming work.
 
----
 
 When programmers say that their code is a holy mess, there are three kinds of things that are wrong with it:
 - First, <b>there are architectural problems</b>:
     - The code is not factored correctly. The networking code is popping up its own dialog boxes from the middle of nowhere; this should have been handled in the UI code.
     - These problems can be solved by <b>carefully moving code, refactoring, changing interfaces.</b>
-- A second reason programmers think that their code is a mess is that it is inefficient &rarr; which you can opitmize or even rewrite.
-- Third, the code may be doggone ugly. 
+- A second reason programmers think that their code is a mess is that <b>it is inefficient</b> &rarr; which you can opitmize or even rewrite.
+- Third, the code may be <b>doggone ugly. </b>
 
----
 
 &rarr; It's important to remember that when you start from scratch there is <b> absolutely no reason</b> to believe that you are going to do a better job than you did the first time.
 
