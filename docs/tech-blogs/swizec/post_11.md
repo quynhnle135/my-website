@@ -2,7 +2,7 @@
 title: Why a tech meltdown is the best time to invest in your career?
 ---
 
-# Why a tech meltdown is the ebst time to invest in your career?
+# Why a tech meltdown is the best time to invest in your career?
 
 - Tech has been going through a rough patch. Hiring freezes, promotion freezes, layoffs &rarr; What we will do is to attack!
 - Like the forest after the fire, the ground is full of amazing fertilizer, all the weeds sucking your nutrients are gone, <i> the baby trees explode into life</i> &rarr; This is the moment we're waiting for, and <b>your career can be like that baby tree</b>
