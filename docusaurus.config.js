@@ -74,9 +74,9 @@ const config = {
           },
           {
             type: 'docsVersion',
-            to: '/docs/category/learning-journal',
+            to: '/docs/category/learning-journals',
             position: 'left',
-            label: 'Journals',
+            label: 'Learning Journals',
           },
           {
             to: '/docs/category/research-topics',
@@ -121,8 +121,8 @@ const config = {
                 to: '/docs/category/book-reviews',
               },
               {
-                label: 'Journals',
-                to: '/docs/category/learning-journal',
+                label: 'Learning Journals',
+                to: '/docs/category/learning-journals',
               },
               {
                 label: 'Research Topics',
