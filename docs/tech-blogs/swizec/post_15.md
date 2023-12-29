@@ -4,7 +4,7 @@ title: How positioning makes you stand out from the crowd
 
 # How positioning makes you stand out from the crowd
 
-Qeustion: <i>How's it possible that you can have both managers and Staff engineers. Don't their roles overlap? Are managers just shirking responsibilities?
+Qeustion: <i>How's it possible that you can have both managers and Staff engineers. Don't their roles overlap? Are managers just shirking responsibilities?</i>
 
 To Swizec:
 - He and his manager are at the same level. They work as peers
