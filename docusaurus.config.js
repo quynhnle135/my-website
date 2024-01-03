@@ -66,6 +66,19 @@ const config = {
         },
         items: [
           {
+            type: 'docsVersion',
+            to: '/docs/category/journals',
+            position: 'left',
+            label: 'Journals',
+          },
+          {
+            to: '/docs/category/notes',
+            type: 'docsVersion',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Notes',
+          },
+          {
             to: '/docs/category/book-reviews',
             type: 'docsVersion',
             sidebarId: 'tutorialSidebar',
@@ -73,24 +86,11 @@ const config = {
             label: 'Book Reviews',
           },
           {
-            type: 'docsVersion',
-            to: '/docs/category/learning-journals',
-            position: 'left',
-            label: 'Learning Journals',
-          },
-          {
             to: '/docs/category/research-topics',
             type: 'docsVersion',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Research Topics',
-          },
-          {
-            to: '/docs/category/tech-blogs',
-            type: 'docsVersion',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tech Blogs',
           },
           {
             to: '/docs/category/troubleshooting',
@@ -117,20 +117,20 @@ const config = {
             title:'Docs',
             items: [
               {
+                label: 'Journals',
+                to: '/docs/category/journals',
+              },
+              {
+                label: 'Notes',
+                to: '/docs/category/notes',
+              },
+              {
                 label: 'Book Reviews',
                 to: '/docs/category/book-reviews',
               },
               {
-                label: 'Learning Journals',
-                to: '/docs/category/learning-journals',
-              },
-              {
                 label: 'Research Topics',
                 to: '/docs/category/research-topics',
-              },
-              {
-                label: 'Tech Blogs',
-                to: '/docs/category/tech-blogs',
               },
               {
                 label: 'Troubleshooting',
