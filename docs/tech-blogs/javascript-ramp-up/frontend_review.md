@@ -26,3 +26,18 @@ title: Front-End Review
 
 
 ### What I Need To Know About JavaScript?
+- To make your website interactive, you need to use JavaScript. 
+- JavaScript is a programming language used to help the user interact with the website such as pop-up, notification alert, or animation, etc.
+- JavaScript is widely used across the web and now it's not only used for the front-end but also the back-end with Node and Express.
+- People talk about <b><i>Vanilla JavaScript</i></b>, what does it mean?
+&rarr; It's pure JavaScript without any libraries or framework. 
+- What I should know about JavaSscript as a webs developer?
+    + Fundamenbtals of the languages: Syntax, operators, control structures (if-else, loops, do-while), functions, objects and arrays
+    + DOM manipulation: selecting elements, manipulating elements, and event handling.
+    + Asynchronous JavaScript: promises, async/await, AJAX and Fetch API
+    + Web APIs: Browser API, Third-party APIs
+    + ES6 and beyond
+
+---
+
+- [What is HTML, CSS, and JavaScript?](https://www.youtube.com/watch?v=DHGhFJZLKMs&t=193s)
