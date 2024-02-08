@@ -16,7 +16,7 @@ title: Front-End Review
 
 
 ### What I Need To Know About CSS?
-- CSS (Cascading Styole Sheets) adds style to your website. You can make each tag and element in HTML looks unique and different in sizes, styles, or colors. For examples:
+- CSS (Cascading Style Sheets) adds style to your website. You can make each tag and element in HTML looks unique and different in sizes, styles, or colors. For examples:
     + backgroud-color: If you want to change the background's color
     + display: If you want to adjust how the block of content in HTML displayed. It can be <i> block, inline, flex, etc...</i>
     + Box models: Each element in HTML can also be considered as a box which has margins, borders, padding, and content. With CSS, you can adjust the size of these elements too. 
@@ -31,8 +31,8 @@ title: Front-End Review
 - JavaScript is widely used across the web and now it's not only used for the front-end but also the back-end with Node and Express.
 - People talk about <b><i>Vanilla JavaScript</i></b>, what does it mean?
 &rarr; It's pure JavaScript without any libraries or framework. 
-- What I should know about JavaSscript as a webs developer?
-    + Fundamenbtals of the languages: Syntax, operators, control structures (if-else, loops, do-while), functions, objects and arrays
+- What I should know about JavaSscript as a web developer?
+    + Fundamentals of the languages: Syntax, operators, control structures (if-else, loops, do-while), functions, objects and arrays
     + DOM manipulation: selecting elements, manipulating elements, and event handling.
     + Asynchronous JavaScript: promises, async/await, AJAX and Fetch API
     + Web APIs: Browser API, Third-party APIs

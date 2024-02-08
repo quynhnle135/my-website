@@ -5,7 +5,7 @@ title: Scope and Variables in JavaScript
 # Scope and Variables in JavaScript
 
 - There are three keywords for declaring variables in JavaScript: <b>var</b>, <b>let</b>, and <b>const</b>
-    + <b>>var</b>: 
+    + <b>var</b>: 
         + Before ES6 (JavaScript's latest version), var was the primary way to declare variables.
         + Variables declared with <b>var</b> are function-scoped or globally scoped.
         + These <b>var</b> variables can be re-declared and udpated.
