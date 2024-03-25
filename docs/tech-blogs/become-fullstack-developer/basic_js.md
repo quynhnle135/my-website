@@ -1,6 +1,5 @@
 ---
 title: Basic and Fundamental JavaScript Overview
-position: 2
 ---
 
 # Basic and Fundamental JavaScript Overview

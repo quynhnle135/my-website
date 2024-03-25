@@ -151,6 +151,58 @@ function game(tries, randomNumber, guess) {
     - ```rl.on("line", (name) => {console.log("hello,", name)};)```: Emitted whenver the input stream receives an end-of-line input (\n or Enter)
     - ```rl.on("close", () => {console.log("good bye)};)```: Emitted when the readline interface is closed using ```rl.close()```
 
+### Guess Vowel Coding Challenge
+
+```javascript
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+function generateRandomVowel() {
+  let vowels = ["a", "e", "i", "o", "u"];
+  let randomIndex = Math.floor(Math.random() * vowels.length);
+  return vowels[randomIndex];
+}
+
+let randomVowel = generateRandomVowel();
+console.log("Random Vowel: " + randomVowel);
+console.log("---GUESS CORRECT VOWEL---");
+console.log("***You have 3 trials***");
+
+let tries = 3;
+rl.setPrompt("Pick a random vowel (either lowercase or upcase): ");
+rl.prompt();
+rl.on("line", (guess) => {
+  tries--;
+  game(tries, randomVowel, guess);
+  rl.prompt();
+});
+
+function game(tries, randomVowel, guess) {
+  if (tries > 0) {
+    if (randomVowel == guess) {
+      console.log("YOU WON!");
+      process.exit();
+    } else {
+      console.log("INCORRECT.");
+    }
+  } else {
+    if (randomVowel == guess) {
+      console.log("YOU WON!");
+    } else {
+      console.log("YOU LOSE. THE VOWEL IS: " + randomVowel);
+    }
+    process.exit();
+  }
+}
+
+```
+
+---
+
 #### Follow-up questions
 <b><i>What's the difference between ```rl.close()``` and ```process.exit()```</i></b>
     - ```rl.close()``` is used to close the command-line interface and want to clean up nicely, while ```process.exit() is used to end your program, regardless of what else might be happening in your application.

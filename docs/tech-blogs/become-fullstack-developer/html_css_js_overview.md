@@ -1,6 +1,5 @@
 ---
 title: HTML, CSS, and JavaScript Overview
-position: 1
 ---
 
 # HTML, CSS, and JavaScript Overview
