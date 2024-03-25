@@ -8,10 +8,10 @@ position: 2
 ## Scope and Variables in JavaScript
 
 ### Variables
-- There are three keywords for declaring variables in JavaScript: <mark>const, let, and var</mark>:
+- There are three keywords for declaring variables in JavaScript: <b><mark>const, let, and var</mark></b>
     - <mark>var</mark>:
         - Before ES6 (JavaScript latest version), ```var``` was the primary way to declare variables.
-        - Variables declared with ```var``` are <mark><b>function-scoped or global-scoped.</b></mark>
+        - Variables declared with ```var``` are <mark>function-scoped or global-scoped.</mark>
         - These ```var``` variables can be re-declared and updated.
 
         ```javascript
@@ -47,7 +47,7 @@ position: 2
             // console.log(PI)
         ```
 ### Scope
-- There are three main scopes in JavaScript: <mark>global scope, functional/local scope, and block scope</mark>:
+- There are three main scopes in JavaScript: <mark>global scope, functional/local scope, and block scope</mark>
     - <mark>Global scope</mark>: Variables declared outside any function or block become globally accessible from any part of the code.
     - <mark>Function/local scope</mark>: Variables declared within a function are local to that function and cannot be accessed from outside. 
     - <mark>Block scope</mark>: Block scope restricts the visibility of a variable to the block in which it's declared such as if-else conditions, loops, etc.
@@ -80,11 +80,11 @@ position: 2
         >>> This is my function.
     ```
 
-- For variables declared with ```var```, hoisting moves their declarations to the top of their scope, but not their initialization &rarr; <mark>Until they are initialized, their value is <b>undefined</b>
+- For variables declared with ```var```, hoisting moves their declarations to the top of their scope, but not their initialization &rarr; <mark>Until they are initialized, their value is <b>undefined</b></mark>
 - Variables declared with ```let``` and ```const```, although their declarations are technically hoisted but if you access them before declaration, it will result in ```ReferenceError```.
 - With functions, hoisting works differently:
     - Function declarations: <mark>are fully hoisted</mark>, which means both declaration and the definition are moved to the top of their containing scope &rarr; <mark>Allow you to call the function before it's declared and still return the expected output.</mark>
-    - Function expression: if a function is assigned to a variable, the variable declaration is hoisted but the assignment of the function is not hoisted &rarr; <mark>If you try to call it before it's defined, it'll result in errors.</mark>. For example:
+    - Function expression: if a function is assigned to a variable, the variable declaration is hoisted but the assignment of the function is not hoisted &rarr; <mark>If you try to call it before it's defined, it'll result in errors</mark>. For example:
         ```javascript
             notHoistedFunction(); // TypeError: notHoistedFunction is not a function
 
@@ -124,8 +124,9 @@ position: 2
     - Promises: Promise is a way to handle asynchronous operations, providing a cleaner and more flexible way to organize callback-based code. 
     - Enhance object literals.
 
+---
 
-### Synchronous programming vs Asynchronous programming
+## Synchronous programming vs Asynchronous programming
 - In <b>synchronous programming</b>, tasks are executed one after another. If a task is waiting for some I/O operation to complete, the program execution <b>blocks or waits</b> until that task is finished.
 - <b>Asynchronous programming in Node.js</b> allows the program to initiate the I/O operation and then move on to another task without waiting for the first operation to complete &rarr; Once the operation is finished, a callback function, promise, or an async/await pattern is used to handle the result, allowing the program to continue its workflow.
 
