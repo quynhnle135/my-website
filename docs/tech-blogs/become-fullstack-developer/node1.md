@@ -16,8 +16,7 @@ title: Node.js Introduction and Fundamental (1)
 
 <mark>&rarr; Node.js's non-blocking, event-drivent architecture makes it particularly well-suited for applications that require high concurrency but don't have intensive CPU computation, allowing for efficient handling of simultaneous connections with minimal overhead.</mark>
 
-
-### Follow-up questions
+#### Follow-up questions
 <b><i>As the definition of Node.js, what does "outside of a web browser" mean?</i></b>
     - Traditionally, JavaScript was designed to run only within web browser to create interactive web pages and handle user interactions. 
     - Node.js extends the capabilities of JavaScript beyond browsers, making it possible to write server-side scripts, command-line tools, and even desk applications, etc. 
@@ -25,10 +24,7 @@ title: Node.js Introduction and Fundamental (1)
 <b><i>What does concurrency mean?</i></b>
     - Concurrency: refers to the ability of a system to handle multiple tasks or operations at the same time
 
-## Synchronous and asynchronous programming
-- In <b>synchronous programming</b>, tasks are executed one after another. If a task is waiting for some I/O operation to complete, the program execution <b>blocks or waits</b> until that task is finished.
-- <b>Asynchronous programming in Node.js</b> allows the program to initiate the I/O operation and then move on to another task without waiting for the first operation to complete &rarr; Once the operation is finished, a callback function, promise, or an async/await pattern is used to handle the result, allowing the program to continue its workflow.
-
+---
 
 ## Buffer
 - <b>Buffer</b> in the context of computers refer to a temporary data storage that is used when moving data. 
@@ -60,6 +56,8 @@ console.log(buff5.toString());
 ```
 
 - ```Buffer.allocUnsafe()``` is faster than ```Buffer.alloc()``` but the buffers it returns may or may not be empty.
+
+---
 
 ## Readline
 - <b><i>readline</i></b> module provides an interface for reading data from a Readable stream (such as <i>process.stdin</i>) one line at a time. 
