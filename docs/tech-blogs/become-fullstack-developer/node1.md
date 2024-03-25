@@ -154,7 +154,7 @@ function game(tries, randomNumber, guess) {
     - ```rl.on("close", () => {console.log("good bye)};)```: Emitted when the readline interface is closed using ```rl.close()```
 
 #### Follow-up questions
-<b><i>What's the difference between ```rl.close()``` and ```process.exit()```
+<b><i>What's the difference between ```rl.close()``` and ```process.exit()```</i></b>
     - ```rl.close()``` is used to close the command-line interface and want to clean up nicely, while ```process.exit() is used to end your program, regardless of what else might be happening in your application.
 
 ---
