@@ -214,7 +214,7 @@ function game(tries, randomVowel, guess) {
 - Node.js can be used for many purpose such as web development, API services, and real-time applications.
 - Synchronous programming is where tasks are executed one after another, while asynchornous programming allows the program to move on to another tasks without waiting for the first operation to complete. 
 - Buffer is a temporary data storage that is used when moving data. 
-- ```readline``` module provides an interface for reading data from a Reader stream 
+- ```readline``` module provides an interface for reading data from a Reader stream.
 
 ---
 - Written and updated on Mar 25, 2024.

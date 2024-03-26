@@ -136,5 +136,4 @@ server.listen(port, hostname, function () {
      - When you click on that URL, you're sending a request to the server so that you can see a website with "Hello, word!" sentence displayed in the browser. 
 
 ---
-- Added on Mar 25, 2024.
-
+- Written on Mar 25, 2024.
