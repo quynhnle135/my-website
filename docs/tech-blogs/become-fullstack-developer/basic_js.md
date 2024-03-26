@@ -175,6 +175,18 @@ title: Basic and Fundamental JavaScript Overview
     ```
 
 ---
+## Summary
+- There are three types of variabels in JavaScript: ```const```, ```let```, and ```var```
+    - ```const``` variables cannot be updated after initialization
+    - ```let``` can be updated after initialization but cannot be re-declared
+    - ```var``` can be updated and re-declated
+- There are three variable scopes: global scope, function/local scope, and block scope.
+- Hoisting is the process where the JavaScript interperter moves all variables and function declarations to the top of their containing scope before the scope has actually executed &rarr; Simply speaking to my understand, there are some cases (mostly ```var``` variables and functions) can be accessed before being initialized (assigned value).
+- Synchronous programming means the program has to execute tasks one by one and in order, which means the next one can only be executed when the previous one is completed. Meanwhile, asynchronous programming can work on other tasks while there's tasks executing or taking longer to complete compared to others.
+- DOM - Document Object Model, represents the documents as objects so that programming languagel like JavaScript can interact with page's elements.
+
+
+---
 - Added and updated on Mar 25, 2024.
 - Some resources I used:
     - [What is HTML, CSS, and JavaScript?](https://www.youtube.com/watch?v=DHGhFJZLKMs&t=193s)

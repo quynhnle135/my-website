@@ -4,7 +4,7 @@ title: HTML, CSS, and JavaScript Overview
 
 # HTML, CSS, and JavaScript Overview
 
-### What I Need To Know About HTML?
+## What I Need To Know About HTML?
 - HTML (Hyper Text Markup Language) uses different tags and elements to identify what you see on screen. For examples:
     + <b>h1-h6</b>: If you want to add headings to your website
     + <b>p</b>: If you want to add paragraph
@@ -15,7 +15,7 @@ title: HTML, CSS, and JavaScript Overview
 
 ---
 
-### What I Need To Know About CSS?
+## What I Need To Know About CSS?
 - <mark>CSS (Cascading Style Sheets) adds style to your website</mark>. You can make each tag and element in HTML looks unique and different in sizes, styles, or colors. For examples:
     + backgroud-color: If you want to change the background's color
     + display: If you want to adjust how the block of content in HTML displayed. It can be <i> block, inline, flex, etc...</i>
@@ -27,7 +27,7 @@ title: HTML, CSS, and JavaScript Overview
 
 ---
 
-### What I Need To Know About JavaScript?
+## What I Need To Know About JavaScript?
 - To make your website interactive, you need to use JavaScript. 
 - JavaScript is a programming language used to help the user interact with the website such as pop-up, notification alert, or animation, etc.
 - JavaScript is widely used across the web and now it's not only used for the front-end but also the back-end with Node and Express.
@@ -40,7 +40,7 @@ title: HTML, CSS, and JavaScript Overview
 
 ---
 
-### Summary
+## Summary
 - When it comes to making or building a website, there are three main blocks contributing to it which are HTML, CSS, and JavaScript.
 - HTML (Hyper Text Markup Language) uses different tags and elements to identify what you see on screen.
 - CSS (Cascading Style Sheets) adds style to your website. You can make each tag and element in HTML looks unique and different in sizes, styles, or colors.
