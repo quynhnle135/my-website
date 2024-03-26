@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[697],{375:e=>{e.exports=JSON.parse('{"title":"Notes","slug":"/category/notes","permalink":"/docs/category/notes","navigation":{"previous":{"title":"Mar 25, 2024","permalink":"/docs/learning-journal/2024/March/20240325"},"next":{"title":"Archive","permalink":"/docs/tech-blogs/archive"}}}')}}]);
