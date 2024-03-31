@@ -185,7 +185,6 @@ title: Basic and Fundamental JavaScript Overview
 - Synchronous programming means the program has to execute tasks one by one and in order, which means the next one can only be executed when the previous one is completed. Meanwhile, asynchronous programming can work on other tasks while there's tasks executing or taking longer to complete compared to others.
 - DOM - Document Object Model, represents the documents as objects so that programming languagel like JavaScript can interact with page's elements.
 
-
 ---
 - Added and updated on Mar 25, 2024.
 - Some resources I used:

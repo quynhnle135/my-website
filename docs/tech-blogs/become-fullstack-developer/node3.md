@@ -183,11 +183,10 @@ readFromFile(filePath);
     Result after entering this in terminal ```node ModuleTwo/NodeAPI/process.js quinn newjersey```
 
     ```
-        quinnle@Quinns-MBP become-node-js-developer % 
-        process.argv[0] /usr/local/bin/node
-        process.argv[1] /Users/quinnle/become-node-js-developer/ModuleTwo/NodeAPI/process.js
-        hi, quinn
-        Hi, I am quinn and I live in newjersey
+    >>> process.argv[0] /usr/local/bin/node
+    >>> process.argv[1] /Users/quinnle/become-node-js-developer/ModuleTwo/NodeAPI/process.js
+    >>> hi, quinn
+    >>> Hi, I am quinn and I live in newjersey
     ```
 
 ---
