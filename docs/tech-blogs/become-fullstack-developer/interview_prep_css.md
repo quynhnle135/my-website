@@ -1,8 +1,8 @@
 ---
-tile: CSS Interview Prepartion
+tile: Interview Prepartion - CSS
 ---
 
-# CSS Interview Prepartion
+# Interview Prepartion - CSS
 
 #### What is Box Model? Describe each part.
 - Box Model is usually used when it comes to design and layout. 
@@ -85,3 +85,6 @@ tile: CSS Interview Prepartion
     - For example: captions for loud places or deaf users, screen readers for blind users, and clear text contrasts for those with vision impairments. 
 - Usability: Your website should be effectve, efficient, and satisfying for users. 
 - Inclusion: Your website should be able to use for all diversity and every in the world wihtout any differences in demographic, languages, or ages. 
+
+---
+- Written on Mar 31, 2024.

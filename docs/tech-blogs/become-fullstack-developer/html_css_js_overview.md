@@ -28,7 +28,7 @@ title: HTML, CSS, and JavaScript Overview
 ---
 
 ## What I Need To Know About JavaScript?
-- To make your website interactive, you need to use JavaScript. 
+- <mark>To make your website interactive, you need to use JavaScript.</mark> 
 - JavaScript is a programming language used to help the user interact with the website such as pop-up, notification alert, or animation, etc.
 - JavaScript is widely used across the web and now it's not only used for the front-end but also the back-end with Node and Express.
 - What I should know about JavaScript as a web developer?

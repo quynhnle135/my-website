@@ -1,8 +1,8 @@
 ---
-title: HTML and CSS Interview Preparation
+title: Interview Preparation - HTML and CSS
 ---
 
-# HTML and CSS Interview Preparation
+# Interview Preparation - HTML and CSS
 
 #### What is HTML?
 - HTML (Hyper Text Markup Language) is the standard markup language for creating web pages. It is used to describe the structure of a website.
@@ -105,3 +105,7 @@ title: HTML and CSS Interview Preparation
 #### What is SVG and why do we use it?
 - SVG defined vector-based graphic in XML, which can be directly embedded in HTML pages. 
 - <mark><b><i> We use SVG because it's scalable so the quality isn't affected when it's zoomed or resized.</i></b></mark>
+
+---
+
+- Written on Mar 31, 2024.
