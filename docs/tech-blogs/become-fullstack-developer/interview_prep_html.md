@@ -88,7 +88,7 @@ title: Interview Preparation - HTML and CSS
     - [attr]: select all elements that have an attribute named <i><b>attr</b></i>
     - [attr=val]: select all elements that have attributes <i><b>attr</b></i> with value <i><b>val</b></i>
     - [attr^=val]: select all elements that have attributes <i><b>attr</b></i> whose values <mark>START WITH</mark> <i><b>val</b></i> 
-    - [att$*=val]: select all elements that have attributes <i><b>attr</b></i> whose values <mark>END WITH</mark> <i><b>val</b></i>
+    - [att$=val]: select all elements that have attributes <i><b>attr</b></i> whose values <mark>END WITH</mark> <i><b>val</b></i>
     - [attr*=val]: select all elements that have attributes <i><b>attr</b></i> whose values <mark>CONTAIN</mark> <i><b>val</b></i>
 
 ---

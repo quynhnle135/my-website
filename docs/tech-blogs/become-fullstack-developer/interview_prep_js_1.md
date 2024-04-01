@@ -5,7 +5,7 @@ title: Interview Preparation - JavaScript (1)
 # Interview Preparation - JavaScript (1)
 
 ### What is JavaScript? 
-- JavaScript is a high-level progrmaming language that ECMAScript (whic is a standardized specification for scripting language like language syntaxes and semantics)
+- JavaScript is a high-level progrmaming language that ECMAScript (which is a standardized specification for scripting language like language syntaxes and semantics)
 - Some features of JavaScript we should know: 
     - Just-in-time compilation
     - Dynamic typing
@@ -23,6 +23,7 @@ title: Interview Preparation - JavaScript (1)
 ### What is Just-In-Time compilation? What's the difference between JIT compilation and interpretation?
 - Just-in-time compilation: during runtime, entire code is converted to machine code, then executed immedately, which allows for runtime opitmizations. 
 - Interpretation: during runtime, interpreter parses the source code and executes instructions line by line. 
+
 <mark> &rarr; Interpretation translates and executes code on the fly without producing a standablone executable, leading to slower execution. JIT compilation compiles code to machine-level instructions during execution to speed up the process.</mark>
 
 ---
@@ -57,7 +58,8 @@ title: Interview Preparation - JavaScript (1)
 
 ### What are primitive data types in JavaScript?
 - There are 7 primitive data types in JavaScript: string, number, boolean, null, undefined, symbol, and bigint. 
-<mark>- All primitive data types are immutable.</mark>
+
+<mark>&rarr; All primitive data types are immutable.</mark>
 
 ---
 

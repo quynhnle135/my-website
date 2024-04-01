@@ -26,7 +26,7 @@ tile: Interview Prepartion - CSS
 
 ### What is box-sizing? What is the difference between content-box and border-box?
 - Box-sizing property in CSS allows us to include padding and border in an element's width and height.
-- When using <i>content-box</i>, the content size r<mark>emain the same</mark>, while <i>border-box</i> <mark>grows as padding and border grow</mark>. 
+- When using <i>content-box</i>, the content size <mark>remain the same</mark>, while <i>border-box</i> <mark>grows as padding and border grow</mark>. 
 
 ---
 
@@ -58,7 +58,7 @@ tile: Interview Prepartion - CSS
 - For CSS animation:
     - It's the best for creating complicated movements like moving from initial to final state with some steps in between.
     - Can be triggered or run automatically.
-    - Can run forwards, in, reverse, or alternate direction. 
+    - Can run forwards, in reverse, or alternate direction. 
 
 ---
 
