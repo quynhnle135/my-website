@@ -84,3 +84,10 @@ function myFunction () {
 
 ### What is IIFE? 
 - IIFE - Immediate Invoked Function Expression: a function that is called/invoked immediately after being defined. 
+
+---
+### Scope chain
+- Scope chain is the cycle of looking for a variable's value within the current scope, then outer scope, and so on until find the value or reaching thhe global scope.
+- Lexical scoping: code inside a function may access variables defined outside, but not the reverse.
+
+---
