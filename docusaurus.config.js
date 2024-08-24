@@ -1,49 +1,50 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer').themes.github;
-const darkCodeTheme = require('prism-react-renderer').themes.dracula;
+const lightCodeTheme = require("prism-react-renderer").themes.github;
+const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Quinn Le",
-  tagline: 'Welcome to My Learning Hub: Where Journals, Books, Researchs, and Practical Solutions Meet.',
-  favicon: 'img/meowbulb.svg',
+  tagline:
+    "Welcome to My Learning Hub: Where Journals, Books, Researchs, and Practical Solutions Meet.",
+  favicon: "img/meowbulb.svg",
 
   // Set the production url of your site here
-  url: 'https://quinnle.io',
+  url: "https://quinnle.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'quynhnle135', // Usually your GitHub org/user name.
-  projectName: 'my-website', // Usually your repo name.
+  organizationName: "quynhnle135", // Usually your GitHub org/user name.
+  projectName: "my-website", // Usually your repo name.
   trailingSlash: false,
 
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -53,119 +54,118 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: "light",
         disableSwitch: true,
-        
       },
-      image: 'img/smile.svg',
+      image: "img/smile.svg",
       navbar: {
         title: "Quinn Le",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/meowbulb.svg',
+          alt: "My Site Logo",
+          src: "img/meowbulb.svg",
         },
         items: [
           {
-            type: 'docsVersion',
-            to: '/docs/category/journals',
-            position: 'left',
-            label: 'Journals',
+            type: "docsVersion",
+            to: "/docs/category/journals",
+            position: "left",
+            label: "Journals",
           },
           {
-            to: '/docs/category/notes',
-            type: 'docsVersion',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Notes',
+            to: "/docs/category/notes",
+            type: "docsVersion",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Notes",
           },
           {
-            to: '/docs/category/book-reviews',
-            type: 'docsVersion',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Book Reviews',
+            to: "/docs/category/book-reviews",
+            type: "docsVersion",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Book Reviews",
           },
           {
-            to: '/docs/category/research-topics',
-            type: 'docsVersion',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Research Topics',
+            to: "/docs/category/research-topics",
+            type: "docsVersion",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Research Topics",
           },
           {
-            to: '/docs/category/troubleshooting',
-            type: 'docsVersion',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Troubleshooting',
+            to: "/docs/category/troubleshooting",
+            type: "docsVersion",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Troubleshooting",
           },
           {
-            href: 'https://github.com/quynhnle135',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/quynhnle135",
+            label: "GitHub",
+            position: "right",
           },
           {
-            href: 'https://www.linkedin.com/in/quinnle13/',
-            label: 'LinkedIn',
-            position: 'right',
+            href: "https://www.linkedin.com/in/quinnle13/",
+            label: "LinkedIn",
+            position: "right",
           },
         ],
       },
       footer: {
         links: [
           {
-            title:'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Journals',
-                to: '/docs/category/journals',
+                label: "Journals",
+                to: "/docs/category/journals",
               },
               {
-                label: 'Notes',
-                to: '/docs/category/notes',
+                label: "Notes",
+                to: "/docs/category/notes",
               },
               {
-                label: 'Book Reviews',
-                to: '/docs/category/book-reviews',
+                label: "Book Reviews",
+                to: "/docs/category/book-reviews",
               },
               {
-                label: 'Research Topics',
-                to: '/docs/category/research-topics',
+                label: "Research Topics",
+                to: "/docs/category/research-topics",
               },
               {
-                label: 'Troubleshooting',
-                to: '/docs/category/troubleshooting',
-              }
-            ]
+                label: "Troubleshooting",
+                to: "/docs/category/troubleshooting",
+              },
+            ],
           },
           {
-            title: 'Get In Touch',
+            title: "Get In Touch",
             items: [
               {
-                label: 'Email',
-                to: 'mailto:quynhnle135@gmail.com',
+                label: "Email",
+                to: "mailto:quynhnle135@gmail.com",
               },
               {
-                label: 'Phone',
-                to: 'tel:+16093251446',
-              }
-            ]
+                label: "Phone",
+                to: "tel:+16093251446",
+              },
+            ],
           },
           {
-            title: 'Contact',
+            title: "Contact",
             items: [
               {
-                label: 'LinkedIn',
-                href : 'https://www.linkedin.com/in/quinnle13/',
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/quinnle13/",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/quynhnle135',
+                label: "GitHub",
+                href: "https://github.com/quynhnle135",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Quinn Le &#128171;`,
+        copyright: `Copyright © ${new Date().getFullYear()} Quinn Le`,
       },
       prism: {
         theme: lightCodeTheme,
